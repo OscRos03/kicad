@@ -1,4 +1,6 @@
 (sym_lib_table
   (version 7)
   (lib (name "custom_power")(type "KiCad")(uri "${KIPRJMOD}/custom_power.kicad_sym")(options "")(descr ""))
+  (lib (name "TPD4E05U06DQAR")(type "KiCad")(uri "${KIPRJMOD}/TPD4E05U06DQAR.kicad_sym")(options "")(descr ""))
+  (lib (name "TMJG26945AENL")(type "KiCad")(uri "${KIPRJMOD}/TMJG26945AENL.kicad_sym")(options "")(descr ""))
 )
