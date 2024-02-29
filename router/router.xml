@@ -1,0 +1,1693 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<export version="E">
+  <design>
+    <source>C:\Users\banan\Desktop\KiCad\kicad\router\router.kicad_sch</source>
+    <date>1/19/2024 6:10:14 PM</date>
+    <tool>Eeschema 7.0.7</tool>
+    <sheet number="1" name="/" tstamps="/">
+      <title_block>
+        <title/>
+        <company/>
+        <rev/>
+        <date/>
+        <source>router.kicad_sch</source>
+        <comment number="1" value=""/>
+        <comment number="2" value=""/>
+        <comment number="3" value=""/>
+        <comment number="4" value=""/>
+        <comment number="5" value=""/>
+        <comment number="6" value=""/>
+        <comment number="7" value=""/>
+        <comment number="8" value=""/>
+        <comment number="9" value=""/>
+      </title_block>
+    </sheet>
+    <sheet number="2" name="/RJ45/" tstamps="/a81d31f0-8ca0-4ddd-984b-6842b4aae9a3/">
+      <title_block>
+        <title/>
+        <company/>
+        <rev/>
+        <date/>
+        <source>RJ45.kicad_sch</source>
+        <comment number="1" value=""/>
+        <comment number="2" value=""/>
+        <comment number="3" value=""/>
+        <comment number="4" value=""/>
+        <comment number="5" value=""/>
+        <comment number="6" value=""/>
+        <comment number="7" value=""/>
+        <comment number="8" value=""/>
+        <comment number="9" value=""/>
+      </title_block>
+    </sheet>
+    <sheet number="3" name="/LAN7800/" tstamps="/ec4cc3e4-f3ac-4d1c-bf30-daee9a533c4e/">
+      <title_block>
+        <title/>
+        <company/>
+        <rev/>
+        <date/>
+        <source>LAN7800.kicad_sch</source>
+        <comment number="1" value=""/>
+        <comment number="2" value=""/>
+        <comment number="3" value=""/>
+        <comment number="4" value=""/>
+        <comment number="5" value=""/>
+        <comment number="6" value=""/>
+        <comment number="7" value=""/>
+        <comment number="8" value=""/>
+        <comment number="9" value=""/>
+      </title_block>
+    </sheet>
+  </design>
+  <components>
+    <comp ref="J1">
+      <value>UART interface</value>
+      <libsource lib="Connector_Generic" part="Conn_01x04" description="Generic connector, single row, 01x04, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="router.kicad_sch"/>
+      <property name="dnp"/>
+      <property name="ki_description" value="Generic connector, single row, 01x04, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <property name="ki_keywords" value="connector"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>ad32f533-6ddc-4826-a898-546bb589f8b0</tstamps>
+    </comp>
+    <comp ref="Module1">
+      <value>ComputeModule4-CM4</value>
+      <footprint>CM4IO:Raspberry-Pi-4-Compute-Module</footprint>
+      <fields>
+        <field name="Field4">Hirose</field>
+        <field name="Field5">2x DF40C-100DS-0.4V</field>
+      </fields>
+      <libsource lib="CM4IO" part="ComputeModule4-CM4" description=""/>
+      <property name="Field4" value="Hirose"/>
+      <property name="Field5" value="2x DF40C-100DS-0.4V"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="router.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>5e68efd7-d107-4b21-8d51-aef42dbc0f34 40775c53-92f6-405d-a9e7-322dd24a0354</tstamps>
+    </comp>
+    <comp ref="R1">
+      <value>0</value>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="router.kicad_sch"/>
+      <property name="ki_description" value="Resistor"/>
+      <property name="ki_keywords" value="R res resistor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>24185d68-fe64-4b37-8312-3fb7d4f90f7f</tstamps>
+    </comp>
+    <comp ref="R2">
+      <value>4.7k</value>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="router.kicad_sch"/>
+      <property name="dnp"/>
+      <property name="ki_description" value="Resistor"/>
+      <property name="ki_keywords" value="R res resistor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>40f7226c-244a-41c8-9fac-110a977ca2c0</tstamps>
+    </comp>
+    <comp ref="R3">
+      <value>4.7k</value>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="router.kicad_sch"/>
+      <property name="dnp"/>
+      <property name="ki_description" value="Resistor"/>
+      <property name="ki_keywords" value="R res resistor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>9ab62dd8-641a-4a9e-9e02-57de5ab18655</tstamps>
+    </comp>
+    <comp ref="TP1">
+      <value>TestPoint</value>
+      <libsource lib="Connector" part="TestPoint" description="test point"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="router.kicad_sch"/>
+      <property name="ki_description" value="test point"/>
+      <property name="ki_keywords" value="test point tp"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>775400b6-9436-4634-9187-e1b24b673010</tstamps>
+    </comp>
+    <comp ref="TP2">
+      <value>TestPoint</value>
+      <libsource lib="Connector" part="TestPoint" description="test point"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="router.kicad_sch"/>
+      <property name="ki_description" value="test point"/>
+      <property name="ki_keywords" value="test point tp"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>67f5fbb9-4631-46af-ac0f-f5d029f05f2a</tstamps>
+    </comp>
+    <comp ref="TP3">
+      <value>TestPoint</value>
+      <libsource lib="Connector" part="TestPoint" description="test point"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="router.kicad_sch"/>
+      <property name="ki_description" value="test point"/>
+      <property name="ki_keywords" value="test point tp"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>9c2e99aa-b5c0-402b-a0ad-7cb825ce655c</tstamps>
+    </comp>
+    <comp ref="TP4">
+      <value>TestPoint</value>
+      <libsource lib="Connector" part="TestPoint" description="test point"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="router.kicad_sch"/>
+      <property name="ki_description" value="test point"/>
+      <property name="ki_keywords" value="test point tp"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>d4ecbb00-e54f-4744-8355-048b1ee5712e</tstamps>
+    </comp>
+    <comp ref="TP5">
+      <value>TestPoint</value>
+      <libsource lib="Connector" part="TestPoint" description="test point"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="router.kicad_sch"/>
+      <property name="ki_description" value="test point"/>
+      <property name="ki_keywords" value="test point tp"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>ed493e55-ff17-4f91-b323-7e3b398cce82</tstamps>
+    </comp>
+    <comp ref="TP6">
+      <value>TestPoint</value>
+      <libsource lib="Connector" part="TestPoint" description="test point"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="router.kicad_sch"/>
+      <property name="ki_description" value="test point"/>
+      <property name="ki_keywords" value="test point tp"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>c69abab1-3743-4615-90f2-360eea4cff3e</tstamps>
+    </comp>
+    <comp ref="TP7">
+      <value>TestPoint</value>
+      <libsource lib="Connector" part="TestPoint" description="test point"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="router.kicad_sch"/>
+      <property name="ki_description" value="test point"/>
+      <property name="ki_keywords" value="test point tp"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>30ce51f6-fc3a-4c0f-b1c6-b9d43004084b</tstamps>
+    </comp>
+    <comp ref="TP8">
+      <value>TestPoint</value>
+      <libsource lib="Connector" part="TestPoint" description="test point"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="router.kicad_sch"/>
+      <property name="ki_description" value="test point"/>
+      <property name="ki_keywords" value="test point tp"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>24fb8754-b841-4678-b12a-78bb904fae9f</tstamps>
+    </comp>
+    <comp ref="TP9">
+      <value>TestPoint</value>
+      <libsource lib="Connector" part="TestPoint" description="test point"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="router.kicad_sch"/>
+      <property name="ki_description" value="test point"/>
+      <property name="ki_keywords" value="test point tp"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>cd591bf3-2458-4af6-8d16-4c110bbc9895</tstamps>
+    </comp>
+    <comp ref="TP10">
+      <value>TestPoint</value>
+      <libsource lib="Connector" part="TestPoint" description="test point"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="router.kicad_sch"/>
+      <property name="ki_description" value="test point"/>
+      <property name="ki_keywords" value="test point tp"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>eb989ea5-20ee-4ed1-9b22-69fef84cc0e9</tstamps>
+    </comp>
+    <comp ref="TP11">
+      <value>TestPoint</value>
+      <libsource lib="Connector" part="TestPoint" description="test point"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="router.kicad_sch"/>
+      <property name="ki_description" value="test point"/>
+      <property name="ki_keywords" value="test point tp"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>75391d65-658d-4743-a27b-a2d22c9cf75a</tstamps>
+    </comp>
+    <comp ref="TP12">
+      <value>TestPoint</value>
+      <libsource lib="Connector" part="TestPoint" description="test point"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="router.kicad_sch"/>
+      <property name="ki_description" value="test point"/>
+      <property name="ki_keywords" value="test point tp"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>a6ecedd2-e6bd-464b-9cb2-429f75a21bdb</tstamps>
+    </comp>
+    <comp ref="D1">
+      <value>TPD4E05U06DQAR</value>
+      <footprint>DQA(R-PUSON-N10)</footprint>
+      <datasheet>http://www.ti.com/lit/gpn/tpd4e05u06</datasheet>
+      <fields>
+        <field name="Manufacturer_Name">Texas Instruments</field>
+        <field name="Manufacturer_Part_Number">TPD4E05U06DQAR</field>
+        <field name="Mouser Part Number">595-TPD4E05U06DQAR</field>
+        <field name="Mouser Price/Stock">https://www.mouser.co.uk/ProductDetail/Texas-Instruments/TPD4E05U06DQAR?qs=%2FCrDlo5IrVPi4woOvWz0qA%3D%3D</field>
+      </fields>
+      <libsource lib="TPD4E05U06DQAR" part="TPD4E05U06DQAR" description="4-Channel Ultra-Low-Capacitance IEC ESD Protection Diode"/>
+      <property name="Height" value=""/>
+      <property name="Mouser Part Number" value="595-TPD4E05U06DQAR"/>
+      <property name="Mouser Price/Stock" value="https://www.mouser.co.uk/ProductDetail/Texas-Instruments/TPD4E05U06DQAR?qs=%2FCrDlo5IrVPi4woOvWz0qA%3D%3D"/>
+      <property name="Manufacturer_Name" value="Texas Instruments"/>
+      <property name="Manufacturer_Part_Number" value="TPD4E05U06DQAR"/>
+      <property name="Sheetname" value="RJ45"/>
+      <property name="Sheetfile" value="RJ45.kicad_sch"/>
+      <property name="ki_description" value="4-Channel Ultra-Low-Capacitance IEC ESD Protection Diode"/>
+      <sheetpath names="/RJ45/" tstamps="/a81d31f0-8ca0-4ddd-984b-6842b4aae9a3/"/>
+      <tstamps>af33e6bc-cbe3-4746-8e65-662603344f4d</tstamps>
+    </comp>
+    <comp ref="D2">
+      <value>TPD4E05U06DQAR</value>
+      <footprint>DQA(R-PUSON-N10)</footprint>
+      <datasheet>http://www.ti.com/lit/gpn/tpd4e05u06</datasheet>
+      <fields>
+        <field name="Manufacturer_Name">Texas Instruments</field>
+        <field name="Manufacturer_Part_Number">TPD4E05U06DQAR</field>
+        <field name="Mouser Part Number">595-TPD4E05U06DQAR</field>
+        <field name="Mouser Price/Stock">https://www.mouser.co.uk/ProductDetail/Texas-Instruments/TPD4E05U06DQAR?qs=%2FCrDlo5IrVPi4woOvWz0qA%3D%3D</field>
+      </fields>
+      <libsource lib="TPD4E05U06DQAR" part="TPD4E05U06DQAR" description="4-Channel Ultra-Low-Capacitance IEC ESD Protection Diode"/>
+      <property name="Height" value=""/>
+      <property name="Mouser Part Number" value="595-TPD4E05U06DQAR"/>
+      <property name="Mouser Price/Stock" value="https://www.mouser.co.uk/ProductDetail/Texas-Instruments/TPD4E05U06DQAR?qs=%2FCrDlo5IrVPi4woOvWz0qA%3D%3D"/>
+      <property name="Manufacturer_Name" value="Texas Instruments"/>
+      <property name="Manufacturer_Part_Number" value="TPD4E05U06DQAR"/>
+      <property name="Sheetname" value="RJ45"/>
+      <property name="Sheetfile" value="RJ45.kicad_sch"/>
+      <property name="ki_description" value="4-Channel Ultra-Low-Capacitance IEC ESD Protection Diode"/>
+      <sheetpath names="/RJ45/" tstamps="/a81d31f0-8ca0-4ddd-984b-6842b4aae9a3/"/>
+      <tstamps>237f7bac-b674-463f-b78f-998490e75af2</tstamps>
+    </comp>
+    <comp ref="D3">
+      <value>TPD4E05U06DQAR</value>
+      <footprint>DQA(R-PUSON-N10)</footprint>
+      <datasheet>http://www.ti.com/lit/gpn/tpd4e05u06</datasheet>
+      <fields>
+        <field name="Manufacturer_Name">Texas Instruments</field>
+        <field name="Manufacturer_Part_Number">TPD4E05U06DQAR</field>
+        <field name="Mouser Part Number">595-TPD4E05U06DQAR</field>
+        <field name="Mouser Price/Stock">https://www.mouser.co.uk/ProductDetail/Texas-Instruments/TPD4E05U06DQAR?qs=%2FCrDlo5IrVPi4woOvWz0qA%3D%3D</field>
+      </fields>
+      <libsource lib="TPD4E05U06DQAR" part="TPD4E05U06DQAR" description="4-Channel Ultra-Low-Capacitance IEC ESD Protection Diode"/>
+      <property name="Height" value=""/>
+      <property name="Mouser Part Number" value="595-TPD4E05U06DQAR"/>
+      <property name="Mouser Price/Stock" value="https://www.mouser.co.uk/ProductDetail/Texas-Instruments/TPD4E05U06DQAR?qs=%2FCrDlo5IrVPi4woOvWz0qA%3D%3D"/>
+      <property name="Manufacturer_Name" value="Texas Instruments"/>
+      <property name="Manufacturer_Part_Number" value="TPD4E05U06DQAR"/>
+      <property name="Sheetname" value="RJ45"/>
+      <property name="Sheetfile" value="RJ45.kicad_sch"/>
+      <property name="ki_description" value="4-Channel Ultra-Low-Capacitance IEC ESD Protection Diode"/>
+      <sheetpath names="/RJ45/" tstamps="/a81d31f0-8ca0-4ddd-984b-6842b4aae9a3/"/>
+      <tstamps>829936ab-88fc-4982-a052-7dd86e87d87c</tstamps>
+    </comp>
+    <comp ref="D4">
+      <value>TPD4E05U06DQAR</value>
+      <footprint>DQA(R-PUSON-N10)</footprint>
+      <datasheet>http://www.ti.com/lit/gpn/tpd4e05u06</datasheet>
+      <fields>
+        <field name="Manufacturer_Name">Texas Instruments</field>
+        <field name="Manufacturer_Part_Number">TPD4E05U06DQAR</field>
+        <field name="Mouser Part Number">595-TPD4E05U06DQAR</field>
+        <field name="Mouser Price/Stock">https://www.mouser.co.uk/ProductDetail/Texas-Instruments/TPD4E05U06DQAR?qs=%2FCrDlo5IrVPi4woOvWz0qA%3D%3D</field>
+      </fields>
+      <libsource lib="TPD4E05U06DQAR" part="TPD4E05U06DQAR" description="4-Channel Ultra-Low-Capacitance IEC ESD Protection Diode"/>
+      <property name="Height" value=""/>
+      <property name="Mouser Part Number" value="595-TPD4E05U06DQAR"/>
+      <property name="Mouser Price/Stock" value="https://www.mouser.co.uk/ProductDetail/Texas-Instruments/TPD4E05U06DQAR?qs=%2FCrDlo5IrVPi4woOvWz0qA%3D%3D"/>
+      <property name="Manufacturer_Name" value="Texas Instruments"/>
+      <property name="Manufacturer_Part_Number" value="TPD4E05U06DQAR"/>
+      <property name="Sheetname" value="RJ45"/>
+      <property name="Sheetfile" value="RJ45.kicad_sch"/>
+      <property name="ki_description" value="4-Channel Ultra-Low-Capacitance IEC ESD Protection Diode"/>
+      <sheetpath names="/RJ45/" tstamps="/a81d31f0-8ca0-4ddd-984b-6842b4aae9a3/"/>
+      <tstamps>aa52bfe6-4d0c-4af0-9ddf-6bc0d7ead5d4</tstamps>
+    </comp>
+    <comp ref="J2">
+      <value>TMJG26945AENL</value>
+      <footprint>TMJG26945AENL</footprint>
+      <datasheet>https://www.mouser.in/datasheet/2/398/TMJG26945AENL-3073721.pdf</datasheet>
+      <fields>
+        <field name="Height">13.64</field>
+        <field name="Manufacturer_Name">Taoglas</field>
+        <field name="Manufacturer_Part_Number">TMJG26945AENL</field>
+      </fields>
+      <libsource lib="TMJG26945AENL" part="TMJG26945AENL" description="Modular Connectors / Ethernet Connectors RJ45 Integrated Connector, 1G Base-T, Dual Ports, Down, Shielded EMI Finger, w/LED horizontal  (G/Y), THT, Industrial, AutoMDIX, Short Body"/>
+      <property name="Height" value="13.64"/>
+      <property name="Mouser Part Number" value=""/>
+      <property name="Mouser Price/Stock" value=""/>
+      <property name="Manufacturer_Name" value="Taoglas"/>
+      <property name="Manufacturer_Part_Number" value="TMJG26945AENL"/>
+      <property name="Sheetname" value="RJ45"/>
+      <property name="Sheetfile" value="RJ45.kicad_sch"/>
+      <property name="ki_description" value="Modular Connectors / Ethernet Connectors RJ45 Integrated Connector, 1G Base-T, Dual Ports, Down, Shielded EMI Finger, w/LED horizontal  (G/Y), THT, Industrial, AutoMDIX, Short Body"/>
+      <sheetpath names="/RJ45/" tstamps="/a81d31f0-8ca0-4ddd-984b-6842b4aae9a3/"/>
+      <tstamps>88bebccd-7f35-4d3b-a0c4-a324e1e9023f</tstamps>
+    </comp>
+    <comp ref="R4">
+      <value>680</value>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Sheetname" value="RJ45"/>
+      <property name="Sheetfile" value="RJ45.kicad_sch"/>
+      <property name="ki_description" value="Resistor"/>
+      <property name="ki_keywords" value="R res resistor"/>
+      <sheetpath names="/RJ45/" tstamps="/a81d31f0-8ca0-4ddd-984b-6842b4aae9a3/"/>
+      <tstamps>9ed9581c-940d-4187-bec6-656e8e49c235</tstamps>
+    </comp>
+    <comp ref="R8">
+      <value>680</value>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Sheetname" value="RJ45"/>
+      <property name="Sheetfile" value="RJ45.kicad_sch"/>
+      <property name="ki_description" value="Resistor"/>
+      <property name="ki_keywords" value="R res resistor"/>
+      <sheetpath names="/RJ45/" tstamps="/a81d31f0-8ca0-4ddd-984b-6842b4aae9a3/"/>
+      <tstamps>08f4681a-3fb7-4ed1-9021-e9833baa4422</tstamps>
+    </comp>
+    <comp ref="R9">
+      <value>680</value>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Sheetname" value="RJ45"/>
+      <property name="Sheetfile" value="RJ45.kicad_sch"/>
+      <property name="ki_description" value="Resistor"/>
+      <property name="ki_keywords" value="R res resistor"/>
+      <sheetpath names="/RJ45/" tstamps="/a81d31f0-8ca0-4ddd-984b-6842b4aae9a3/"/>
+      <tstamps>ac081f17-69bd-4e9a-9335-e8f151524183</tstamps>
+    </comp>
+    <comp ref="R10">
+      <value>680</value>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Sheetname" value="RJ45"/>
+      <property name="Sheetfile" value="RJ45.kicad_sch"/>
+      <property name="ki_description" value="Resistor"/>
+      <property name="ki_keywords" value="R res resistor"/>
+      <sheetpath names="/RJ45/" tstamps="/a81d31f0-8ca0-4ddd-984b-6842b4aae9a3/"/>
+      <tstamps>6dcc0750-11cd-41b8-82e3-e8e2532e8290</tstamps>
+    </comp>
+    <comp ref="C1">
+      <value>1uF</value>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <property name="Sheetname" value="LAN7800"/>
+      <property name="Sheetfile" value="LAN7800.kicad_sch"/>
+      <property name="ki_description" value="Unpolarized capacitor"/>
+      <property name="ki_keywords" value="cap capacitor"/>
+      <sheetpath names="/LAN7800/" tstamps="/ec4cc3e4-f3ac-4d1c-bf30-daee9a533c4e/"/>
+      <tstamps>5cb44311-089b-4df8-98a2-cabd1d4ec48a</tstamps>
+    </comp>
+    <comp ref="IC1">
+      <value>LAN7800_Y9X</value>
+      <footprint>QFN50P700X700X100-49N-D</footprint>
+      <fields>
+        <field name="Height">1</field>
+        <field name="Manufacturer_Name">Microchip</field>
+        <field name="Manufacturer_Part_Number">LAN7800/Y9X</field>
+        <field name="Mouser Part Number">579-LAN7800/Y9X</field>
+        <field name="Mouser Price/Stock">https://www.mouser.co.uk/ProductDetail/Microchip-Technology/LAN7800-Y9X?qs=IP4CA2YhK0DiSn15uFE%252Bdg%3D%3D</field>
+      </fields>
+      <libsource lib="LAN7800_Y9X" part="LAN7800_Y9X" description="MICROCHIP - LAN7800/Y9X - Interface Bridges, USB to 10/100/1000 Ethernet, 2.97 V, 3.63 V, SQFN, 48 Pins, 0 C"/>
+      <property name="Height" value="1"/>
+      <property name="Mouser Part Number" value="579-LAN7800/Y9X"/>
+      <property name="Mouser Price/Stock" value="https://www.mouser.co.uk/ProductDetail/Microchip-Technology/LAN7800-Y9X?qs=IP4CA2YhK0DiSn15uFE%252Bdg%3D%3D"/>
+      <property name="Manufacturer_Name" value="Microchip"/>
+      <property name="Manufacturer_Part_Number" value="LAN7800/Y9X"/>
+      <property name="Sheetname" value="LAN7800"/>
+      <property name="Sheetfile" value="LAN7800.kicad_sch"/>
+      <property name="ki_description" value="MICROCHIP - LAN7800/Y9X - Interface Bridges, USB to 10/100/1000 Ethernet, 2.97 V, 3.63 V, SQFN, 48 Pins, 0 C"/>
+      <sheetpath names="/LAN7800/" tstamps="/ec4cc3e4-f3ac-4d1c-bf30-daee9a533c4e/"/>
+      <tstamps>75065c0d-ed7a-4075-a99c-954ee9017834</tstamps>
+    </comp>
+    <comp ref="R5">
+      <value>2K</value>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Sheetname" value="LAN7800"/>
+      <property name="Sheetfile" value="LAN7800.kicad_sch"/>
+      <property name="ki_description" value="Resistor"/>
+      <property name="ki_keywords" value="R res resistor"/>
+      <sheetpath names="/LAN7800/" tstamps="/ec4cc3e4-f3ac-4d1c-bf30-daee9a533c4e/"/>
+      <tstamps>be9ec902-ca0d-4101-b136-e70da086a067</tstamps>
+    </comp>
+    <comp ref="R6">
+      <value>10K</value>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Sheetname" value="LAN7800"/>
+      <property name="Sheetfile" value="LAN7800.kicad_sch"/>
+      <property name="dnp"/>
+      <property name="ki_description" value="Resistor"/>
+      <property name="ki_keywords" value="R res resistor"/>
+      <sheetpath names="/LAN7800/" tstamps="/ec4cc3e4-f3ac-4d1c-bf30-daee9a533c4e/"/>
+      <tstamps>d892d11e-e43a-4943-a817-4824bfbccc3d</tstamps>
+    </comp>
+    <comp ref="R7">
+      <value>10K</value>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Sheetname" value="LAN7800"/>
+      <property name="Sheetfile" value="LAN7800.kicad_sch"/>
+      <property name="ki_description" value="Resistor"/>
+      <property name="ki_keywords" value="R res resistor"/>
+      <sheetpath names="/LAN7800/" tstamps="/ec4cc3e4-f3ac-4d1c-bf30-daee9a533c4e/"/>
+      <tstamps>02424316-57cb-4d17-8df0-ea71af7f91b0</tstamps>
+    </comp>
+    <comp ref="TP13">
+      <value>TestPoint</value>
+      <libsource lib="Connector" part="TestPoint" description="test point"/>
+      <property name="Sheetname" value="LAN7800"/>
+      <property name="Sheetfile" value="LAN7800.kicad_sch"/>
+      <property name="ki_description" value="test point"/>
+      <property name="ki_keywords" value="test point tp"/>
+      <sheetpath names="/LAN7800/" tstamps="/ec4cc3e4-f3ac-4d1c-bf30-daee9a533c4e/"/>
+      <tstamps>96fa0694-c064-42e6-8f62-7f86d6c4a5c9</tstamps>
+    </comp>
+  </components>
+  <libparts>
+    <libpart lib="CM4IO" part="ComputeModule4-CM4">
+      <fields>
+        <field name="Reference">Module</field>
+        <field name="Value">ComputeModule4-CM4</field>
+        <field name="Footprint">CM4IO:Raspberry-Pi-4-Compute-Module</field>
+        <field name="Field4">Hirose</field>
+        <field name="Field5">2x DF40C-100DS-0.4V</field>
+      </fields>
+      <pins>
+        <pin num="1" name="GND" type="power_in"/>
+        <pin num="2" name="GND" type="power_in"/>
+        <pin num="3" name="Ethernet_Pair3_P" type="passive"/>
+        <pin num="4" name="Ethernet_Pair1_P" type="passive"/>
+        <pin num="5" name="Ethernet_Pair3_N" type="passive"/>
+        <pin num="6" name="Ethernet_Pair1_N" type="passive"/>
+        <pin num="7" name="GND" type="power_in"/>
+        <pin num="8" name="GND" type="power_in"/>
+        <pin num="9" name="Ethernet_Pair2_N" type="passive"/>
+        <pin num="10" name="Ethernet_Pair0_N" type="passive"/>
+        <pin num="11" name="Ethernet_Pair2_P" type="passive"/>
+        <pin num="12" name="Ethernet_Pair0_P" type="passive"/>
+        <pin num="13" name="GND" type="power_in"/>
+        <pin num="14" name="GND" type="power_in"/>
+        <pin num="15" name="Ethernet_nLED3(3.3v)" type="output"/>
+        <pin num="16" name="Ethernet_SYNC_IN(1.8v)" type="input"/>
+        <pin num="17" name="Ethernet_nLED2(3.3v)" type="output"/>
+        <pin num="18" name="Ethernet_SYNC_OUT(1.8v)" type="input"/>
+        <pin num="19" name="Ethernet_nLED1(3.3v)" type="output"/>
+        <pin num="20" name="EEPROM_nWP" type="passive"/>
+        <pin num="21" name="PI_nLED_Activity" type="open_collector"/>
+        <pin num="22" name="GND" type="power_in"/>
+        <pin num="23" name="GND" type="power_in"/>
+        <pin num="24" name="GPIO26" type="passive"/>
+        <pin num="25" name="GPIO21" type="passive"/>
+        <pin num="26" name="GPIO19" type="passive"/>
+        <pin num="27" name="GPIO20" type="passive"/>
+        <pin num="28" name="GPIO13" type="passive"/>
+        <pin num="29" name="GPIO16" type="passive"/>
+        <pin num="30" name="GPIO6" type="passive"/>
+        <pin num="31" name="GPIO12" type="passive"/>
+        <pin num="32" name="GND" type="power_in"/>
+        <pin num="33" name="GND" type="power_in"/>
+        <pin num="34" name="GPIO5" type="passive"/>
+        <pin num="35" name="ID_SC" type="passive"/>
+        <pin num="36" name="ID_SD" type="passive"/>
+        <pin num="37" name="GPIO7" type="passive"/>
+        <pin num="38" name="GPIO11" type="passive"/>
+        <pin num="39" name="GPIO8" type="passive"/>
+        <pin num="40" name="GPIO9" type="passive"/>
+        <pin num="41" name="GPIO25" type="passive"/>
+        <pin num="42" name="GND" type="power_in"/>
+        <pin num="43" name="GND" type="power_in"/>
+        <pin num="44" name="GPIO10" type="passive"/>
+        <pin num="45" name="GPIO24" type="passive"/>
+        <pin num="46" name="GPIO22" type="passive"/>
+        <pin num="47" name="GPIO23" type="passive"/>
+        <pin num="48" name="GPIO27" type="passive"/>
+        <pin num="49" name="GPIO18" type="passive"/>
+        <pin num="50" name="GPIO17" type="passive"/>
+        <pin num="51" name="GPIO15" type="passive"/>
+        <pin num="52" name="GND" type="power_in"/>
+        <pin num="53" name="GND" type="power_in"/>
+        <pin num="54" name="GPIO4" type="passive"/>
+        <pin num="55" name="GPIO14" type="passive"/>
+        <pin num="56" name="GPIO3" type="passive"/>
+        <pin num="57" name="SD_CLK" type="passive"/>
+        <pin num="58" name="GPIO2" type="passive"/>
+        <pin num="59" name="GND" type="power_in"/>
+        <pin num="60" name="GND" type="power_in"/>
+        <pin num="61" name="SD_DAT3" type="passive"/>
+        <pin num="62" name="SD_CMD" type="passive"/>
+        <pin num="63" name="SD_DAT0" type="passive"/>
+        <pin num="64" name="SD_DAT5" type="passive"/>
+        <pin num="65" name="GND" type="power_in"/>
+        <pin num="66" name="GND" type="power_in"/>
+        <pin num="67" name="SD_DAT1" type="passive"/>
+        <pin num="68" name="SD_DAT4" type="passive"/>
+        <pin num="69" name="SD_DAT2" type="passive"/>
+        <pin num="70" name="SD_DAT7" type="passive"/>
+        <pin num="71" name="GND" type="power_in"/>
+        <pin num="72" name="SD_DAT6" type="passive"/>
+        <pin num="73" name="SD_VDD_Override" type="input"/>
+        <pin num="74" name="GND" type="power_in"/>
+        <pin num="75" name="SD_PWR_ON" type="output"/>
+        <pin num="76" name="Reserved" type="passive"/>
+        <pin num="77" name="+5v_(Input)" type="power_in"/>
+        <pin num="78" name="GPIO_VREF(1.8v/3.3v_Input)" type="power_in"/>
+        <pin num="79" name="+5v_(Input)" type="power_in"/>
+        <pin num="80" name="SCL0" type="passive"/>
+        <pin num="81" name="+5v_(Input)" type="power_in"/>
+        <pin num="82" name="SDA0" type="passive"/>
+        <pin num="83" name="+5v_(Input)" type="power_in"/>
+        <pin num="84" name="+3.3v_(Output)" type="power_out"/>
+        <pin num="85" name="+5v_(Input)" type="power_in"/>
+        <pin num="86" name="+3.3v_(Output)" type="power_out"/>
+        <pin num="87" name="+5v_(Input)" type="power_in"/>
+        <pin num="88" name="+1.8v_(Output)" type="power_out"/>
+        <pin num="89" name="WiFi_nDisable" type="power_in"/>
+        <pin num="90" name="+1.8v_(Output)" type="power_out"/>
+        <pin num="91" name="BT_nDisable" type="power_in"/>
+        <pin num="92" name="RUN_PG" type="passive"/>
+        <pin num="93" name="nRPIBOOT" type="input"/>
+        <pin num="94" name="AnalogIP1" type="passive"/>
+        <pin num="95" name="nPI_LED_PWR" type="output"/>
+        <pin num="96" name="AnalogIP0" type="passive"/>
+        <pin num="97" name="Camera_GPIO" type="passive"/>
+        <pin num="98" name="GND" type="power_in"/>
+        <pin num="99" name="Global_EN" type="input"/>
+        <pin num="100" name="nEXTRST" type="output"/>
+        <pin num="101" name="USB_OTG_ID" type="input"/>
+        <pin num="102" name="PCIe_CLK_nREQ" type="input"/>
+        <pin num="103" name="USB2_N" type="passive"/>
+        <pin num="104" name="Reserved" type="passive"/>
+        <pin num="105" name="USB2_P" type="passive"/>
+        <pin num="106" name="Reserved" type="passive"/>
+        <pin num="107" name="GND" type="power_in"/>
+        <pin num="108" name="GND" type="power_in"/>
+        <pin num="109" name="PCIe_nRST" type="bidirectional"/>
+        <pin num="110" name="PCIe_CLK_P" type="output"/>
+        <pin num="111" name="VDAC_COMP" type="passive"/>
+        <pin num="112" name="PCIe_CLK_N" type="output"/>
+        <pin num="113" name="GND" type="power_in"/>
+        <pin num="114" name="GND" type="power_in"/>
+        <pin num="115" name="CAM1_D0_N" type="input"/>
+        <pin num="116" name="PCIe_RX_P" type="input"/>
+        <pin num="117" name="CAM1_D0_P" type="input"/>
+        <pin num="118" name="PCIe_RX_N" type="input"/>
+        <pin num="119" name="GND" type="power_in"/>
+        <pin num="120" name="GND" type="power_in"/>
+        <pin num="121" name="CAM1_D1_N" type="input"/>
+        <pin num="122" name="PCIe_TX_P" type="output"/>
+        <pin num="123" name="CAM1_D1_P" type="input"/>
+        <pin num="124" name="PCIe_TX_N" type="output"/>
+        <pin num="125" name="GND" type="power_in"/>
+        <pin num="126" name="GND" type="power_in"/>
+        <pin num="127" name="CAM1_C_N" type="input"/>
+        <pin num="128" name="CAM0_D0_N" type="input"/>
+        <pin num="129" name="CAM1_C_P" type="input"/>
+        <pin num="130" name="CAM0_D0_P" type="input"/>
+        <pin num="131" name="GND" type="power_in"/>
+        <pin num="132" name="GND" type="power_in"/>
+        <pin num="133" name="CAM1_D2_N" type="input"/>
+        <pin num="134" name="CAM0_D1_N" type="input"/>
+        <pin num="135" name="CAM1_D2_P" type="input"/>
+        <pin num="136" name="CAM0_D1_P" type="input"/>
+        <pin num="137" name="GND" type="power_in"/>
+        <pin num="138" name="GND" type="power_in"/>
+        <pin num="139" name="CAM1_D3_N" type="input"/>
+        <pin num="140" name="CAM0_C_N" type="input"/>
+        <pin num="141" name="CAM1_D3_P" type="input"/>
+        <pin num="142" name="CAM0_C_P" type="input"/>
+        <pin num="143" name="HDMI1_HOTPLUG" type="input"/>
+        <pin num="144" name="GND" type="power_in"/>
+        <pin num="145" name="HDMI1_SDA" type="bidirectional"/>
+        <pin num="146" name="HDMI1_TX2_P" type="output"/>
+        <pin num="147" name="HDMI1_SCL" type="open_collector"/>
+        <pin num="148" name="HDMI1_TX2_N" type="output"/>
+        <pin num="149" name="HDMI1_CEC" type="open_collector"/>
+        <pin num="150" name="GND" type="power_in"/>
+        <pin num="151" name="HDMI0_CEC" type="open_collector"/>
+        <pin num="152" name="HDMI1_TX1_P" type="output"/>
+        <pin num="153" name="HDMI0_HOTPLUG" type="input"/>
+        <pin num="154" name="HDMI1_TX1_N" type="output"/>
+        <pin num="155" name="GND" type="power_in"/>
+        <pin num="156" name="GND" type="power_in"/>
+        <pin num="157" name="DSI0_D0_N" type="output"/>
+        <pin num="158" name="HDMI1_TX0_P" type="output"/>
+        <pin num="159" name="DSI0_D0_P" type="output"/>
+        <pin num="160" name="HDMI1_TX0_N" type="output"/>
+        <pin num="161" name="GND" type="power_in"/>
+        <pin num="162" name="GND" type="power_in"/>
+        <pin num="163" name="DSI0_D1_N" type="output"/>
+        <pin num="164" name="HDMI1_CLK_P" type="output"/>
+        <pin num="165" name="DSI0_D1_P" type="output"/>
+        <pin num="166" name="HDMI1_CLK_N" type="output"/>
+        <pin num="167" name="GND" type="power_in"/>
+        <pin num="168" name="GND" type="power_in"/>
+        <pin num="169" name="DSI0_C_N" type="output"/>
+        <pin num="170" name="HDMI0_TX2_P" type="output"/>
+        <pin num="171" name="DSI0_C_P" type="output"/>
+        <pin num="172" name="HDMI0_TX2_N" type="output"/>
+        <pin num="173" name="GND" type="power_in"/>
+        <pin num="174" name="GND" type="power_in"/>
+        <pin num="175" name="DSI1_D0_N" type="output"/>
+        <pin num="176" name="HDMI0_TX1_P" type="output"/>
+        <pin num="177" name="DSI1_D0_P" type="output"/>
+        <pin num="178" name="HDMI0_TX1_N" type="output"/>
+        <pin num="179" name="GND" type="power_in"/>
+        <pin num="180" name="GND" type="power_in"/>
+        <pin num="181" name="DSI1_D1_N" type="output"/>
+        <pin num="182" name="HDMI0_TX0_P" type="output"/>
+        <pin num="183" name="DSI1_D1_P" type="output"/>
+        <pin num="184" name="HDMI0_TX0_N" type="output"/>
+        <pin num="185" name="GND" type="power_in"/>
+        <pin num="186" name="GND" type="power_in"/>
+        <pin num="187" name="DSI1_C_N" type="output"/>
+        <pin num="188" name="HDMI0_CLK_P" type="output"/>
+        <pin num="189" name="DSI1_C_P" type="output"/>
+        <pin num="190" name="HDMI0_CLK_N" type="output"/>
+        <pin num="191" name="GND" type="power_in"/>
+        <pin num="192" name="GND" type="power_in"/>
+        <pin num="193" name="DSI1_D2_N" type="output"/>
+        <pin num="194" name="DSI1_D3_N" type="output"/>
+        <pin num="195" name="DSI1_D2_P" type="output"/>
+        <pin num="196" name="DSI1_D3_P" type="output"/>
+        <pin num="197" name="GND" type="power_in"/>
+        <pin num="198" name="GND" type="power_in"/>
+        <pin num="199" name="HDMI0_SDA" type="bidirectional"/>
+        <pin num="200" name="HDMI0_SCL" type="open_collector"/>
+      </pins>
+    </libpart>
+    <libpart lib="Connector" part="TestPoint">
+      <description>test point</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>Pin*</fp>
+        <fp>Test*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">TP</field>
+        <field name="Value">TestPoint</field>
+        <field name="Datasheet">~</field>
+      </fields>
+      <pins>
+        <pin num="1" name="1" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Connector_Generic" part="Conn_01x04">
+      <description>Generic connector, single row, 01x04, script generated (kicad-library-utils/schlib/autogen/connector/)</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>Connector*:*_1x??_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">J</field>
+        <field name="Value">Conn_01x04</field>
+        <field name="Datasheet">~</field>
+      </fields>
+      <pins>
+        <pin num="1" name="Pin_1" type="passive"/>
+        <pin num="2" name="Pin_2" type="passive"/>
+        <pin num="3" name="Pin_3" type="passive"/>
+        <pin num="4" name="Pin_4" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Device" part="C">
+      <description>Unpolarized capacitor</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>C_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">C</field>
+        <field name="Value">C</field>
+        <field name="Datasheet">~</field>
+      </fields>
+      <pins>
+        <pin num="1" name="" type="passive"/>
+        <pin num="2" name="" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Device" part="R">
+      <description>Resistor</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>R_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">R</field>
+        <field name="Value">R</field>
+        <field name="Datasheet">~</field>
+      </fields>
+      <pins>
+        <pin num="1" name="" type="passive"/>
+        <pin num="2" name="" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="LAN7800_Y9X" part="LAN7800_Y9X">
+      <description>MICROCHIP - LAN7800/Y9X - Interface Bridges, USB to 10/100/1000 Ethernet, 2.97 V, 3.63 V, SQFN, 48 Pins, 0 C</description>
+      <fields>
+        <field name="Reference">IC</field>
+        <field name="Value">LAN7800_Y9X</field>
+        <field name="Footprint">QFN50P700X700X100-49N-D</field>
+        <field name="Height">1</field>
+        <field name="Mouser Part Number">579-LAN7800/Y9X</field>
+        <field name="Mouser Price/Stock">https://www.mouser.co.uk/ProductDetail/Microchip-Technology/LAN7800-Y9X?qs=IP4CA2YhK0DiSn15uFE%252Bdg%3D%3D</field>
+        <field name="Manufacturer_Name">Microchip</field>
+        <field name="Manufacturer_Part_Number">LAN7800/Y9X</field>
+      </fields>
+      <pins>
+        <pin num="1" name="TR0P" type="passive"/>
+        <pin num="2" name="TR0N" type="passive"/>
+        <pin num="3" name="VDD25A_1" type="passive"/>
+        <pin num="4" name="TR1P" type="passive"/>
+        <pin num="5" name="TR1N" type="passive"/>
+        <pin num="6" name="VDD25A_2" type="passive"/>
+        <pin num="7" name="TR2P" type="passive"/>
+        <pin num="8" name="TR2N" type="passive"/>
+        <pin num="9" name="VDD25A_3" type="passive"/>
+        <pin num="10" name="TR3P" type="passive"/>
+        <pin num="11" name="TR3N" type="passive"/>
+        <pin num="12" name="VDD25A_4" type="passive"/>
+        <pin num="13" name="VDD12_SW_OUT" type="passive"/>
+        <pin num="14" name="VDD_SW_IN" type="passive"/>
+        <pin num="15" name="VDD12_SW_FB" type="passive"/>
+        <pin num="16" name="EECS/GPIO0" type="passive"/>
+        <pin num="17" name="EEDI/GPIO1" type="passive"/>
+        <pin num="18" name="EEDO/LED0/GPIO2" type="passive"/>
+        <pin num="19" name="EECLK/LED1/GPIO3" type="passive"/>
+        <pin num="20" name="VDDVARIO_1" type="passive"/>
+        <pin num="21" name="VDD12CORE_1" type="passive"/>
+        <pin num="22" name="PME_N/GPIO4" type="passive"/>
+        <pin num="23" name="VBUS_DET" type="passive"/>
+        <pin num="24" name="SUSPEND_N/LED2/GPIO5" type="passive"/>
+        <pin num="25" name="VDD12A_1" type="passive"/>
+        <pin num="26" name="USB2_DP" type="passive"/>
+        <pin num="27" name="USB2_DM" type="passive"/>
+        <pin num="28" name="USB3_TXDP" type="passive"/>
+        <pin num="29" name="USB3_TXDM" type="passive"/>
+        <pin num="30" name="VDD12A_2" type="passive"/>
+        <pin num="31" name="USB3_RXDP" type="passive"/>
+        <pin num="32" name="USB3_RXDM" type="passive"/>
+        <pin num="33" name="LED3/GPIO6" type="passive"/>
+        <pin num="34" name="TEST" type="passive"/>
+        <pin num="35" name="RESET_N/PME_CLEAR" type="passive"/>
+        <pin num="36" name="VDDVARIO_2" type="passive"/>
+        <pin num="37" name="USBRBIAS" type="passive"/>
+        <pin num="38" name="VDD33A" type="passive"/>
+        <pin num="39" name="VDDVARIO_3" type="passive"/>
+        <pin num="40" name="XI" type="passive"/>
+        <pin num="41" name="XO" type="passive"/>
+        <pin num="42" name="VDD12CORE_2" type="passive"/>
+        <pin num="43" name="PME_MODE/GPIO7" type="passive"/>
+        <pin num="44" name="VDD12A_3" type="passive"/>
+        <pin num="45" name="VDD25_REG_OUT" type="passive"/>
+        <pin num="46" name="VDD33_REG_IN" type="passive"/>
+        <pin num="47" name="REF_REXT" type="passive"/>
+        <pin num="48" name="REF_FILT" type="passive"/>
+        <pin num="49" name="EP" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="TMJG26945AENL" part="TMJG26945AENL">
+      <description>Modular Connectors / Ethernet Connectors RJ45 Integrated Connector, 1G Base-T, Dual Ports, Down, Shielded EMI Finger, w/LED horizontal  (G/Y), THT, Industrial, AutoMDIX, Short Body</description>
+      <docs>https://www.mouser.in/datasheet/2/398/TMJG26945AENL-3073721.pdf</docs>
+      <fields>
+        <field name="Reference">J</field>
+        <field name="Value">TMJG26945AENL</field>
+        <field name="Footprint">TMJG26945AENL</field>
+        <field name="Datasheet">https://www.mouser.in/datasheet/2/398/TMJG26945AENL-3073721.pdf</field>
+        <field name="Height">13.64</field>
+        <field name="Manufacturer_Name">Taoglas</field>
+        <field name="Manufacturer_Part_Number">TMJG26945AENL</field>
+      </fields>
+      <pins>
+        <pin num="A1" name="NC_1" type="passive"/>
+        <pin num="A2" name="TD0+_1" type="passive"/>
+        <pin num="A3" name="TD0-_1" type="passive"/>
+        <pin num="A4" name="TD1+_1" type="passive"/>
+        <pin num="A5" name="TD1-_1" type="passive"/>
+        <pin num="A6" name="TD2+_1" type="passive"/>
+        <pin num="A7" name="TD2-_1" type="passive"/>
+        <pin num="A8" name="TD3+_1" type="passive"/>
+        <pin num="A9" name="TD3-_1" type="passive"/>
+        <pin num="A10" name="NC_2" type="passive"/>
+        <pin num="A11" name="A_GREEN_1" type="passive"/>
+        <pin num="A12" name="K_GREEN_1" type="passive"/>
+        <pin num="A13" name="A_YELLOW_1" type="passive"/>
+        <pin num="A14" name="K_YELLOW_1" type="passive"/>
+        <pin num="B1" name="NC_3" type="passive"/>
+        <pin num="B2" name="TD0+_2" type="passive"/>
+        <pin num="B3" name="TD0-_2" type="passive"/>
+        <pin num="B4" name="TD1+_2" type="passive"/>
+        <pin num="B5" name="TD1-_2" type="passive"/>
+        <pin num="B6" name="TD2+_2" type="passive"/>
+        <pin num="B7" name="TD2-_2" type="passive"/>
+        <pin num="B8" name="TD3+_2" type="passive"/>
+        <pin num="B9" name="TD3-_2" type="passive"/>
+        <pin num="B10" name="NC_4" type="passive"/>
+        <pin num="B11" name="A_GREEN_2" type="passive"/>
+        <pin num="B12" name="K_GREEN_2" type="passive"/>
+        <pin num="B13" name="A_YELLOW_2" type="passive"/>
+        <pin num="B14" name="K_YELLOW_2" type="passive"/>
+        <pin num="MH1" name="MH1" type="passive"/>
+        <pin num="MH2" name="MH2" type="passive"/>
+        <pin num="MH3" name="MH3" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="TPD4E05U06DQAR" part="TPD4E05U06DQAR">
+      <description>4-Channel Ultra-Low-Capacitance IEC ESD Protection Diode</description>
+      <docs>http://www.ti.com/lit/gpn/tpd4e05u06</docs>
+      <fields>
+        <field name="Reference">D</field>
+        <field name="Value">TPD4E05U06DQAR</field>
+        <field name="Footprint">DQA(R-PUSON-N10)</field>
+        <field name="Datasheet">http://www.ti.com/lit/gpn/tpd4e05u06</field>
+        <field name="Mouser Part Number">595-TPD4E05U06DQAR</field>
+        <field name="Mouser Price/Stock">https://www.mouser.co.uk/ProductDetail/Texas-Instruments/TPD4E05U06DQAR?qs=%2FCrDlo5IrVPi4woOvWz0qA%3D%3D</field>
+        <field name="Manufacturer_Name">Texas Instruments</field>
+        <field name="Manufacturer_Part_Number">TPD4E05U06DQAR</field>
+      </fields>
+      <pins>
+        <pin num="1" name="D1+" type="passive"/>
+        <pin num="2" name="D1-" type="passive"/>
+        <pin num="3" name="GND_1" type="passive"/>
+        <pin num="4" name="D2+" type="passive"/>
+        <pin num="5" name="D2-" type="passive"/>
+        <pin num="6" name="NC_1" type="passive"/>
+        <pin num="7" name="NC_2" type="passive"/>
+        <pin num="8" name="GND_2" type="passive"/>
+        <pin num="9" name="NC_3" type="passive"/>
+        <pin num="10" name="NC_4" type="passive"/>
+      </pins>
+    </libpart>
+  </libparts>
+  <libraries>
+    <library logical="CM4IO">
+      <uri>C:/Users/banan/Desktop/KiCad/kicad/CM4/CM4IO.kicad_sym</uri>
+    </library>
+    <library logical="Connector">
+      <uri>C:\Program Files\KiCad\7.0\share\kicad\symbols\/Connector.kicad_sym</uri>
+    </library>
+    <library logical="Connector_Generic">
+      <uri>C:\Program Files\KiCad\7.0\share\kicad\symbols\/Connector_Generic.kicad_sym</uri>
+    </library>
+    <library logical="Device">
+      <uri>C:\Program Files\KiCad\7.0\share\kicad\symbols\/Device.kicad_sym</uri>
+    </library>
+    <library logical="LAN7800_Y9X">
+      <uri>C:\Users\banan\Desktop\KiCad\kicad\router/LAN7800_Y9X.kicad_sym</uri>
+    </library>
+    <library logical="TMJG26945AENL">
+      <uri>C:\Users\banan\Desktop\KiCad\kicad\router/TMJG26945AENL.kicad_sym</uri>
+    </library>
+    <library logical="TPD4E05U06DQAR">
+      <uri>C:\Users\banan\Desktop\KiCad\kicad\router/TPD4E05U06DQAR.kicad_sym</uri>
+    </library>
+  </libraries>
+  <nets>
+    <net code="1" name="+3V3">
+      <node ref="IC1" pin="12" pinfunction="VDD25A_4" pintype="passive"/>
+      <node ref="IC1" pin="3" pinfunction="VDD25A_1" pintype="passive"/>
+      <node ref="IC1" pin="6" pinfunction="VDD25A_2" pintype="passive"/>
+      <node ref="IC1" pin="9" pinfunction="VDD25A_3" pintype="passive"/>
+      <node ref="J1" pin="3" pinfunction="Pin_3" pintype="passive"/>
+      <node ref="Module1" pin="77" pinfunction="+5v_(Input)" pintype="power_in"/>
+      <node ref="Module1" pin="79" pinfunction="+5v_(Input)" pintype="power_in"/>
+      <node ref="Module1" pin="81" pinfunction="+5v_(Input)" pintype="power_in"/>
+      <node ref="Module1" pin="83" pinfunction="+5v_(Input)" pintype="power_in"/>
+      <node ref="Module1" pin="84" pinfunction="+3.3v_(Output)" pintype="power_out"/>
+      <node ref="Module1" pin="85" pinfunction="+5v_(Input)" pintype="power_in"/>
+      <node ref="Module1" pin="86" pinfunction="+3.3v_(Output)" pintype="power_out"/>
+      <node ref="Module1" pin="87" pinfunction="+5v_(Input)" pintype="power_in"/>
+      <node ref="Module1" pin="88" pinfunction="+1.8v_(Output)" pintype="power_out"/>
+      <node ref="Module1" pin="90" pinfunction="+1.8v_(Output)" pintype="power_out"/>
+      <node ref="R1" pin="2" pintype="passive"/>
+      <node ref="R10" pin="1" pintype="passive"/>
+      <node ref="R2" pin="1" pintype="passive"/>
+      <node ref="R4" pin="1" pintype="passive"/>
+      <node ref="R6" pin="2" pintype="passive"/>
+      <node ref="R7" pin="2" pintype="passive"/>
+      <node ref="R8" pin="1" pintype="passive"/>
+      <node ref="R9" pin="1" pintype="passive"/>
+      <node ref="TP10" pin="1" pinfunction="1" pintype="passive"/>
+      <node ref="TP11" pin="1" pinfunction="1" pintype="passive"/>
+    </net>
+    <net code="2" name="/CAM_GPIO">
+      <node ref="Module1" pin="97" pinfunction="Camera_GPIO" pintype="passive"/>
+    </net>
+    <net code="3" name="/ETH1_LEDG">
+      <node ref="Module1" pin="15" pinfunction="Ethernet_nLED3(3.3v)" pintype="output"/>
+    </net>
+    <net code="4" name="/ETH1_LEDY">
+      <node ref="Module1" pin="17" pinfunction="Ethernet_nLED2(3.3v)" pintype="output"/>
+    </net>
+    <net code="5" name="/ETH1_MDIN0">
+      <node ref="Module1" pin="12" pinfunction="Ethernet_Pair0_P" pintype="passive"/>
+    </net>
+    <net code="6" name="/ETH1_MDIN1">
+      <node ref="Module1" pin="6" pinfunction="Ethernet_Pair1_N" pintype="passive"/>
+    </net>
+    <net code="7" name="/ETH1_MDIN2">
+      <node ref="Module1" pin="9" pinfunction="Ethernet_Pair2_N" pintype="passive"/>
+    </net>
+    <net code="8" name="/ETH1_MDIN3">
+      <node ref="Module1" pin="5" pinfunction="Ethernet_Pair3_N" pintype="passive"/>
+    </net>
+    <net code="9" name="/ETH1_MDIP0">
+      <node ref="Module1" pin="10" pinfunction="Ethernet_Pair0_N" pintype="passive"/>
+    </net>
+    <net code="10" name="/ETH1_MDIP1">
+      <node ref="Module1" pin="4" pinfunction="Ethernet_Pair1_P" pintype="passive"/>
+    </net>
+    <net code="11" name="/ETH1_MDIP2">
+      <node ref="Module1" pin="11" pinfunction="Ethernet_Pair2_P" pintype="passive"/>
+    </net>
+    <net code="12" name="/ETH1_MDIP3">
+      <node ref="Module1" pin="3" pinfunction="Ethernet_Pair3_P" pintype="passive"/>
+    </net>
+    <net code="13" name="/GPIO2">
+      <node ref="Module1" pin="58" pinfunction="GPIO2" pintype="passive"/>
+    </net>
+    <net code="14" name="/GPIO3">
+      <node ref="Module1" pin="56" pinfunction="GPIO3" pintype="passive"/>
+    </net>
+    <net code="15" name="/GPIO8">
+      <node ref="Module1" pin="39" pinfunction="GPIO8" pintype="passive"/>
+    </net>
+    <net code="16" name="/GPIO9">
+      <node ref="Module1" pin="40" pinfunction="GPIO9" pintype="passive"/>
+    </net>
+    <net code="17" name="/GPIO10">
+      <node ref="Module1" pin="44" pinfunction="GPIO10" pintype="passive"/>
+    </net>
+    <net code="18" name="/GPIO11">
+      <node ref="Module1" pin="38" pinfunction="GPIO11" pintype="passive"/>
+    </net>
+    <net code="19" name="/GPIO12">
+      <node ref="Module1" pin="31" pinfunction="GPIO12" pintype="passive"/>
+    </net>
+    <net code="20" name="/GPIO17">
+      <node ref="Module1" pin="50" pinfunction="GPIO17" pintype="passive"/>
+    </net>
+    <net code="21" name="/GPIO_VREF">
+      <node ref="Module1" pin="78" pinfunction="GPIO_VREF(1.8v/3.3v_Input)" pintype="power_in"/>
+      <node ref="R1" pin="1" pintype="passive"/>
+    </net>
+    <net code="22" name="/HDMI0_CEC">
+      <node ref="Module1" pin="151" pinfunction="HDMI0_CEC" pintype="open_collector"/>
+    </net>
+    <net code="23" name="/HDMI0_CLK_N">
+      <node ref="Module1" pin="190" pinfunction="HDMI0_CLK_N" pintype="output"/>
+    </net>
+    <net code="24" name="/HDMI0_CLK_P">
+      <node ref="Module1" pin="188" pinfunction="HDMI0_CLK_P" pintype="output"/>
+    </net>
+    <net code="25" name="/HDMI0_D0_N">
+      <node ref="Module1" pin="184" pinfunction="HDMI0_TX0_N" pintype="output"/>
+    </net>
+    <net code="26" name="/HDMI0_D0_P">
+      <node ref="Module1" pin="182" pinfunction="HDMI0_TX0_P" pintype="output"/>
+    </net>
+    <net code="27" name="/HDMI0_D1_N">
+      <node ref="Module1" pin="178" pinfunction="HDMI0_TX1_N" pintype="output"/>
+    </net>
+    <net code="28" name="/HDMI0_D1_P">
+      <node ref="Module1" pin="176" pinfunction="HDMI0_TX1_P" pintype="output"/>
+    </net>
+    <net code="29" name="/HDMI0_D2_N">
+      <node ref="Module1" pin="172" pinfunction="HDMI0_TX2_N" pintype="output"/>
+    </net>
+    <net code="30" name="/HDMI0_D2_P">
+      <node ref="Module1" pin="170" pinfunction="HDMI0_TX2_P" pintype="output"/>
+    </net>
+    <net code="31" name="/HDMI0_HOTPLUG">
+      <node ref="Module1" pin="153" pinfunction="HDMI0_HOTPLUG" pintype="input"/>
+    </net>
+    <net code="32" name="/HDMI0_SCL">
+      <node ref="Module1" pin="200" pinfunction="HDMI0_SCL" pintype="open_collector"/>
+    </net>
+    <net code="33" name="/HDMI0_SDA">
+      <node ref="Module1" pin="199" pinfunction="HDMI0_SDA" pintype="bidirectional"/>
+    </net>
+    <net code="34" name="/LAN7800/ETH2_LEDG">
+      <node ref="IC1" pin="24" pinfunction="SUSPEND_N/LED2/GPIO5" pintype="passive"/>
+    </net>
+    <net code="35" name="/LAN7800/ETH2_LEDY">
+      <node ref="IC1" pin="33" pinfunction="LED3/GPIO6" pintype="passive"/>
+    </net>
+    <net code="36" name="/LAN7800/ETH2_MDIN0">
+      <node ref="IC1" pin="2" pinfunction="TR0N" pintype="passive"/>
+    </net>
+    <net code="37" name="/LAN7800/ETH2_MDIN1">
+      <node ref="IC1" pin="5" pinfunction="TR1N" pintype="passive"/>
+    </net>
+    <net code="38" name="/LAN7800/ETH2_MDIN2">
+      <node ref="IC1" pin="8" pinfunction="TR2N" pintype="passive"/>
+    </net>
+    <net code="39" name="/LAN7800/ETH2_MDIN3">
+      <node ref="IC1" pin="11" pinfunction="TR3N" pintype="passive"/>
+    </net>
+    <net code="40" name="/LAN7800/ETH2_MDIP0">
+      <node ref="IC1" pin="1" pinfunction="TR0P" pintype="passive"/>
+    </net>
+    <net code="41" name="/LAN7800/ETH2_MDIP1">
+      <node ref="IC1" pin="4" pinfunction="TR1P" pintype="passive"/>
+    </net>
+    <net code="42" name="/LAN7800/ETH2_MDIP2">
+      <node ref="IC1" pin="7" pinfunction="TR2P" pintype="passive"/>
+    </net>
+    <net code="43" name="/LAN7800/ETH2_MDIP3">
+      <node ref="IC1" pin="10" pinfunction="TR3P" pintype="passive"/>
+    </net>
+    <net code="44" name="/OTG_DN">
+      <node ref="Module1" pin="103" pinfunction="USB2_N" pintype="passive"/>
+    </net>
+    <net code="45" name="/OTG_DP">
+      <node ref="Module1" pin="105" pinfunction="USB2_P" pintype="passive"/>
+    </net>
+    <net code="46" name="/PD_SENSE">
+      <node ref="Module1" pin="96" pinfunction="AnalogIP0" pintype="passive"/>
+    </net>
+    <net code="47" name="/Pi_nLED">
+      <node ref="Module1" pin="21" pinfunction="PI_nLED_Activity" pintype="open_collector"/>
+    </net>
+    <net code="48" name="/RJ45/ETH1_LEDG">
+      <node ref="J2" pin="A12" pinfunction="K_GREEN_1" pintype="passive"/>
+    </net>
+    <net code="49" name="/RJ45/ETH1_LEDY">
+      <node ref="J2" pin="A14" pinfunction="K_YELLOW_1" pintype="passive"/>
+    </net>
+    <net code="50" name="/RJ45/ETH1_MDIN0">
+      <node ref="D3" pin="2" pinfunction="D1-" pintype="passive"/>
+      <node ref="D3" pin="9" pinfunction="NC_3" pintype="passive"/>
+      <node ref="J2" pin="B3" pinfunction="TD0-_2" pintype="passive"/>
+    </net>
+    <net code="51" name="/RJ45/ETH1_MDIN1">
+      <node ref="D3" pin="5" pinfunction="D2-" pintype="passive"/>
+      <node ref="D3" pin="6" pinfunction="NC_1" pintype="passive"/>
+      <node ref="J2" pin="B5" pinfunction="TD1-_2" pintype="passive"/>
+    </net>
+    <net code="52" name="/RJ45/ETH1_MDIN2">
+      <node ref="D4" pin="2" pinfunction="D1-" pintype="passive"/>
+      <node ref="D4" pin="9" pinfunction="NC_3" pintype="passive"/>
+      <node ref="J2" pin="B7" pinfunction="TD2-_2" pintype="passive"/>
+    </net>
+    <net code="53" name="/RJ45/ETH1_MDIN3">
+      <node ref="D4" pin="5" pinfunction="D2-" pintype="passive"/>
+      <node ref="D4" pin="6" pinfunction="NC_1" pintype="passive"/>
+      <node ref="J2" pin="B9" pinfunction="TD3-_2" pintype="passive"/>
+    </net>
+    <net code="54" name="/RJ45/ETH1_MDIP0">
+      <node ref="D3" pin="1" pinfunction="D1+" pintype="passive"/>
+      <node ref="D3" pin="10" pinfunction="NC_4" pintype="passive"/>
+      <node ref="J2" pin="B2" pinfunction="TD0+_2" pintype="passive"/>
+    </net>
+    <net code="55" name="/RJ45/ETH1_MDIP1">
+      <node ref="D3" pin="4" pinfunction="D2+" pintype="passive"/>
+      <node ref="D3" pin="7" pinfunction="NC_2" pintype="passive"/>
+      <node ref="J2" pin="B4" pinfunction="TD1+_2" pintype="passive"/>
+    </net>
+    <net code="56" name="/RJ45/ETH1_MDIP2">
+      <node ref="D4" pin="1" pinfunction="D1+" pintype="passive"/>
+      <node ref="D4" pin="10" pinfunction="NC_4" pintype="passive"/>
+      <node ref="J2" pin="B6" pinfunction="TD2+_2" pintype="passive"/>
+    </net>
+    <net code="57" name="/RJ45/ETH1_MDIP3">
+      <node ref="D4" pin="4" pinfunction="D2+" pintype="passive"/>
+      <node ref="D4" pin="7" pinfunction="NC_2" pintype="passive"/>
+      <node ref="J2" pin="B8" pinfunction="TD3+_2" pintype="passive"/>
+    </net>
+    <net code="58" name="/RJ45/ETH2_LEDG">
+      <node ref="J2" pin="B12" pinfunction="K_GREEN_2" pintype="passive"/>
+    </net>
+    <net code="59" name="/RJ45/ETH2_LEDY">
+      <node ref="J2" pin="B14" pinfunction="K_YELLOW_2" pintype="passive"/>
+    </net>
+    <net code="60" name="/RJ45/ETH2_MDIN0">
+      <node ref="D1" pin="2" pinfunction="D1-" pintype="passive"/>
+      <node ref="D1" pin="9" pinfunction="NC_3" pintype="passive"/>
+      <node ref="J2" pin="A3" pinfunction="TD0-_1" pintype="passive"/>
+    </net>
+    <net code="61" name="/RJ45/ETH2_MDIN1">
+      <node ref="D1" pin="5" pinfunction="D2-" pintype="passive"/>
+      <node ref="D1" pin="6" pinfunction="NC_1" pintype="passive"/>
+      <node ref="J2" pin="A5" pinfunction="TD1-_1" pintype="passive"/>
+    </net>
+    <net code="62" name="/RJ45/ETH2_MDIN2">
+      <node ref="D2" pin="2" pinfunction="D1-" pintype="passive"/>
+      <node ref="D2" pin="9" pinfunction="NC_3" pintype="passive"/>
+      <node ref="J2" pin="A7" pinfunction="TD2-_1" pintype="passive"/>
+    </net>
+    <net code="63" name="/RJ45/ETH2_MDIN3">
+      <node ref="D2" pin="5" pinfunction="D2-" pintype="passive"/>
+      <node ref="D2" pin="6" pinfunction="NC_1" pintype="passive"/>
+      <node ref="J2" pin="A9" pinfunction="TD3-_1" pintype="passive"/>
+    </net>
+    <net code="64" name="/RJ45/ETH2_MDIP0">
+      <node ref="D1" pin="1" pinfunction="D1+" pintype="passive"/>
+      <node ref="D1" pin="10" pinfunction="NC_4" pintype="passive"/>
+      <node ref="J2" pin="A2" pinfunction="TD0+_1" pintype="passive"/>
+    </net>
+    <net code="65" name="/RJ45/ETH2_MDIP1">
+      <node ref="D1" pin="4" pinfunction="D2+" pintype="passive"/>
+      <node ref="D1" pin="7" pinfunction="NC_2" pintype="passive"/>
+      <node ref="J2" pin="A4" pinfunction="TD1+_1" pintype="passive"/>
+    </net>
+    <net code="66" name="/RJ45/ETH2_MDIP2">
+      <node ref="D2" pin="1" pinfunction="D1+" pintype="passive"/>
+      <node ref="D2" pin="10" pinfunction="NC_4" pintype="passive"/>
+      <node ref="J2" pin="A6" pinfunction="TD2+_1" pintype="passive"/>
+    </net>
+    <net code="67" name="/RJ45/ETH2_MDIP3">
+      <node ref="D2" pin="4" pinfunction="D2+" pintype="passive"/>
+      <node ref="D2" pin="7" pinfunction="NC_2" pintype="passive"/>
+      <node ref="J2" pin="A8" pinfunction="TD3+_1" pintype="passive"/>
+    </net>
+    <net code="68" name="/RUN_PG">
+      <node ref="Module1" pin="92" pinfunction="RUN_PG" pintype="passive"/>
+    </net>
+    <net code="69" name="/SCL0">
+      <node ref="Module1" pin="80" pinfunction="SCL0" pintype="passive"/>
+    </net>
+    <net code="70" name="/SDA0">
+      <node ref="Module1" pin="82" pinfunction="SDA0" pintype="passive"/>
+    </net>
+    <net code="71" name="/SD_CLK">
+      <node ref="Module1" pin="57" pinfunction="SD_CLK" pintype="passive"/>
+    </net>
+    <net code="72" name="/SD_CMD">
+      <node ref="Module1" pin="62" pinfunction="SD_CMD" pintype="passive"/>
+    </net>
+    <net code="73" name="/SD_DATA0">
+      <node ref="Module1" pin="63" pinfunction="SD_DAT0" pintype="passive"/>
+    </net>
+    <net code="74" name="/SD_DATA1">
+      <node ref="Module1" pin="67" pinfunction="SD_DAT1" pintype="passive"/>
+    </net>
+    <net code="75" name="/SD_DATA2">
+      <node ref="Module1" pin="69" pinfunction="SD_DAT2" pintype="passive"/>
+    </net>
+    <net code="76" name="/SD_DATA3">
+      <node ref="Module1" pin="61" pinfunction="SD_DAT3" pintype="passive"/>
+    </net>
+    <net code="77" name="/SD_DET">
+      <node ref="Module1" pin="76" pinfunction="Reserved" pintype="passive"/>
+    </net>
+    <net code="78" name="/USB_OTG_ID">
+      <node ref="Module1" pin="101" pinfunction="USB_OTG_ID" pintype="input"/>
+      <node ref="R2" pin="2" pintype="passive"/>
+      <node ref="R3" pin="1" pintype="passive"/>
+      <node ref="TP12" pin="1" pinfunction="1" pintype="passive"/>
+    </net>
+    <net code="79" name="/nEXTRST">
+      <node ref="Module1" pin="100" pinfunction="nEXTRST" pintype="output"/>
+    </net>
+    <net code="80" name="/nPIBOOT">
+      <node ref="Module1" pin="93" pinfunction="nRPIBOOT" pintype="input"/>
+    </net>
+    <net code="81" name="/nPL_LED_PWR">
+      <node ref="Module1" pin="95" pinfunction="nPI_LED_PWR" pintype="output"/>
+    </net>
+    <net code="82" name="GND">
+      <node ref="C1" pin="1" pintype="passive"/>
+      <node ref="D1" pin="3" pinfunction="GND_1" pintype="passive"/>
+      <node ref="D1" pin="8" pinfunction="GND_2" pintype="passive"/>
+      <node ref="D2" pin="3" pinfunction="GND_1" pintype="passive"/>
+      <node ref="D2" pin="8" pinfunction="GND_2" pintype="passive"/>
+      <node ref="D3" pin="3" pinfunction="GND_1" pintype="passive"/>
+      <node ref="D3" pin="8" pinfunction="GND_2" pintype="passive"/>
+      <node ref="D4" pin="3" pinfunction="GND_1" pintype="passive"/>
+      <node ref="D4" pin="8" pinfunction="GND_2" pintype="passive"/>
+      <node ref="J1" pin="4" pinfunction="Pin_4" pintype="passive"/>
+      <node ref="Module1" pin="1" pinfunction="GND" pintype="power_in"/>
+      <node ref="Module1" pin="107" pinfunction="GND" pintype="power_in"/>
+      <node ref="Module1" pin="108" pinfunction="GND" pintype="power_in"/>
+      <node ref="Module1" pin="113" pinfunction="GND" pintype="power_in"/>
+      <node ref="Module1" pin="114" pinfunction="GND" pintype="power_in"/>
+      <node ref="Module1" pin="119" pinfunction="GND" pintype="power_in"/>
+      <node ref="Module1" pin="120" pinfunction="GND" pintype="power_in"/>
+      <node ref="Module1" pin="125" pinfunction="GND" pintype="power_in"/>
+      <node ref="Module1" pin="126" pinfunction="GND" pintype="power_in"/>
+      <node ref="Module1" pin="13" pinfunction="GND" pintype="power_in"/>
+      <node ref="Module1" pin="131" pinfunction="GND" pintype="power_in"/>
+      <node ref="Module1" pin="132" pinfunction="GND" pintype="power_in"/>
+      <node ref="Module1" pin="137" pinfunction="GND" pintype="power_in"/>
+      <node ref="Module1" pin="138" pinfunction="GND" pintype="power_in"/>
+      <node ref="Module1" pin="14" pinfunction="GND" pintype="power_in"/>
+      <node ref="Module1" pin="144" pinfunction="GND" pintype="power_in"/>
+      <node ref="Module1" pin="150" pinfunction="GND" pintype="power_in"/>
+      <node ref="Module1" pin="155" pinfunction="GND" pintype="power_in"/>
+      <node ref="Module1" pin="156" pinfunction="GND" pintype="power_in"/>
+      <node ref="Module1" pin="161" pinfunction="GND" pintype="power_in"/>
+      <node ref="Module1" pin="162" pinfunction="GND" pintype="power_in"/>
+      <node ref="Module1" pin="167" pinfunction="GND" pintype="power_in"/>
+      <node ref="Module1" pin="168" pinfunction="GND" pintype="power_in"/>
+      <node ref="Module1" pin="173" pinfunction="GND" pintype="power_in"/>
+      <node ref="Module1" pin="174" pinfunction="GND" pintype="power_in"/>
+      <node ref="Module1" pin="179" pinfunction="GND" pintype="power_in"/>
+      <node ref="Module1" pin="180" pinfunction="GND" pintype="power_in"/>
+      <node ref="Module1" pin="185" pinfunction="GND" pintype="power_in"/>
+      <node ref="Module1" pin="186" pinfunction="GND" pintype="power_in"/>
+      <node ref="Module1" pin="191" pinfunction="GND" pintype="power_in"/>
+      <node ref="Module1" pin="192" pinfunction="GND" pintype="power_in"/>
+      <node ref="Module1" pin="197" pinfunction="GND" pintype="power_in"/>
+      <node ref="Module1" pin="198" pinfunction="GND" pintype="power_in"/>
+      <node ref="Module1" pin="2" pinfunction="GND" pintype="power_in"/>
+      <node ref="Module1" pin="22" pinfunction="GND" pintype="power_in"/>
+      <node ref="Module1" pin="23" pinfunction="GND" pintype="power_in"/>
+      <node ref="Module1" pin="32" pinfunction="GND" pintype="power_in"/>
+      <node ref="Module1" pin="33" pinfunction="GND" pintype="power_in"/>
+      <node ref="Module1" pin="42" pinfunction="GND" pintype="power_in"/>
+      <node ref="Module1" pin="43" pinfunction="GND" pintype="power_in"/>
+      <node ref="Module1" pin="52" pinfunction="GND" pintype="power_in"/>
+      <node ref="Module1" pin="53" pinfunction="GND" pintype="power_in"/>
+      <node ref="Module1" pin="59" pinfunction="GND" pintype="power_in"/>
+      <node ref="Module1" pin="60" pinfunction="GND" pintype="power_in"/>
+      <node ref="Module1" pin="65" pinfunction="GND" pintype="power_in"/>
+      <node ref="Module1" pin="66" pinfunction="GND" pintype="power_in"/>
+      <node ref="Module1" pin="7" pinfunction="GND" pintype="power_in"/>
+      <node ref="Module1" pin="71" pinfunction="GND" pintype="power_in"/>
+      <node ref="Module1" pin="74" pinfunction="GND" pintype="power_in"/>
+      <node ref="Module1" pin="8" pinfunction="GND" pintype="power_in"/>
+      <node ref="Module1" pin="98" pinfunction="GND" pintype="power_in"/>
+      <node ref="R3" pin="2" pintype="passive"/>
+      <node ref="R5" pin="1" pintype="passive"/>
+    </net>
+    <net code="83" name="GNDPWR">
+      <node ref="J2" pin="MH1" pinfunction="MH1" pintype="passive"/>
+      <node ref="J2" pin="MH2" pinfunction="MH2" pintype="passive"/>
+      <node ref="J2" pin="MH3" pinfunction="MH3" pintype="passive"/>
+    </net>
+    <net code="84" name="Net-(IC1-PME_MODE{slash}GPIO7)">
+      <node ref="IC1" pin="43" pinfunction="PME_MODE/GPIO7" pintype="passive"/>
+      <node ref="TP13" pin="1" pinfunction="1" pintype="passive"/>
+    </net>
+    <net code="85" name="Net-(IC1-PME_N{slash}GPIO4)">
+      <node ref="IC1" pin="22" pinfunction="PME_N/GPIO4" pintype="passive"/>
+      <node ref="R6" pin="1" pintype="passive"/>
+    </net>
+    <net code="86" name="Net-(IC1-REF_FILT)">
+      <node ref="C1" pin="2" pintype="passive"/>
+      <node ref="IC1" pin="48" pinfunction="REF_FILT" pintype="passive"/>
+    </net>
+    <net code="87" name="Net-(IC1-REF_REXT)">
+      <node ref="IC1" pin="47" pinfunction="REF_REXT" pintype="passive"/>
+      <node ref="R5" pin="2" pintype="passive"/>
+    </net>
+    <net code="88" name="Net-(IC1-VBUS_DET)">
+      <node ref="IC1" pin="23" pinfunction="VBUS_DET" pintype="passive"/>
+      <node ref="R7" pin="1" pintype="passive"/>
+    </net>
+    <net code="89" name="Net-(J1-Pin_1)">
+      <node ref="J1" pin="1" pinfunction="Pin_1" pintype="passive"/>
+      <node ref="Module1" pin="51" pinfunction="GPIO15" pintype="passive"/>
+    </net>
+    <net code="90" name="Net-(J1-Pin_2)">
+      <node ref="J1" pin="2" pinfunction="Pin_2" pintype="passive"/>
+      <node ref="Module1" pin="55" pinfunction="GPIO14" pintype="passive"/>
+    </net>
+    <net code="91" name="Net-(J2-A_GREEN_1)">
+      <node ref="J2" pin="A11" pinfunction="A_GREEN_1" pintype="passive"/>
+      <node ref="R9" pin="2" pintype="passive"/>
+    </net>
+    <net code="92" name="Net-(J2-A_GREEN_2)">
+      <node ref="J2" pin="B11" pinfunction="A_GREEN_2" pintype="passive"/>
+      <node ref="R4" pin="2" pintype="passive"/>
+    </net>
+    <net code="93" name="Net-(J2-A_YELLOW_1)">
+      <node ref="J2" pin="A13" pinfunction="A_YELLOW_1" pintype="passive"/>
+      <node ref="R8" pin="2" pintype="passive"/>
+    </net>
+    <net code="94" name="Net-(J2-A_YELLOW_2)">
+      <node ref="J2" pin="B13" pinfunction="A_YELLOW_2" pintype="passive"/>
+      <node ref="R10" pin="2" pintype="passive"/>
+    </net>
+    <net code="95" name="Net-(Module1A-AnalogIP1)">
+      <node ref="Module1" pin="94" pinfunction="AnalogIP1" pintype="passive"/>
+      <node ref="TP8" pin="1" pinfunction="1" pintype="passive"/>
+    </net>
+    <net code="96" name="Net-(Module1A-BT_nDisable)">
+      <node ref="Module1" pin="91" pinfunction="BT_nDisable" pintype="power_in"/>
+      <node ref="TP3" pin="1" pinfunction="1" pintype="passive"/>
+    </net>
+    <net code="97" name="Net-(Module1A-EEPROM_nWP)">
+      <node ref="Module1" pin="20" pinfunction="EEPROM_nWP" pintype="passive"/>
+      <node ref="TP7" pin="1" pinfunction="1" pintype="passive"/>
+    </net>
+    <net code="98" name="Net-(Module1A-Ethernet_SYNC_IN(1.8v))">
+      <node ref="Module1" pin="16" pinfunction="Ethernet_SYNC_IN(1.8v)" pintype="input"/>
+      <node ref="TP5" pin="1" pinfunction="1" pintype="passive"/>
+    </net>
+    <net code="99" name="Net-(Module1A-Ethernet_SYNC_OUT(1.8v))">
+      <node ref="Module1" pin="18" pinfunction="Ethernet_SYNC_OUT(1.8v)" pintype="input"/>
+      <node ref="TP6" pin="1" pinfunction="1" pintype="passive"/>
+    </net>
+    <net code="100" name="Net-(Module1A-Global_EN)">
+      <node ref="Module1" pin="99" pinfunction="Global_EN" pintype="input"/>
+      <node ref="TP4" pin="1" pinfunction="1" pintype="passive"/>
+    </net>
+    <net code="101" name="Net-(Module1A-SD_PWR_ON)">
+      <node ref="Module1" pin="75" pinfunction="SD_PWR_ON" pintype="output"/>
+      <node ref="TP1" pin="1" pinfunction="1" pintype="passive"/>
+    </net>
+    <net code="102" name="Net-(Module1A-WiFi_nDisable)">
+      <node ref="Module1" pin="89" pinfunction="WiFi_nDisable" pintype="power_in"/>
+      <node ref="TP2" pin="1" pinfunction="1" pintype="passive"/>
+    </net>
+    <net code="103" name="Net-(Module1B-VDAC_COMP)">
+      <node ref="Module1" pin="111" pinfunction="VDAC_COMP" pintype="passive"/>
+      <node ref="TP9" pin="1" pinfunction="1" pintype="passive"/>
+    </net>
+    <net code="104" name="unconnected-(IC1-EECLK{slash}LED1{slash}GPIO3-Pad19)">
+      <node ref="IC1" pin="19" pinfunction="EECLK/LED1/GPIO3" pintype="passive"/>
+    </net>
+    <net code="105" name="unconnected-(IC1-EECS{slash}GPIO0-Pad16)">
+      <node ref="IC1" pin="16" pinfunction="EECS/GPIO0" pintype="passive"/>
+    </net>
+    <net code="106" name="unconnected-(IC1-EEDI{slash}GPIO1-Pad17)">
+      <node ref="IC1" pin="17" pinfunction="EEDI/GPIO1" pintype="passive"/>
+    </net>
+    <net code="107" name="unconnected-(IC1-EEDO{slash}LED0{slash}GPIO2-Pad18)">
+      <node ref="IC1" pin="18" pinfunction="EEDO/LED0/GPIO2" pintype="passive"/>
+    </net>
+    <net code="108" name="unconnected-(IC1-EP-Pad49)">
+      <node ref="IC1" pin="49" pinfunction="EP" pintype="passive"/>
+    </net>
+    <net code="109" name="unconnected-(IC1-RESET_N{slash}PME_CLEAR-Pad35)">
+      <node ref="IC1" pin="35" pinfunction="RESET_N/PME_CLEAR" pintype="passive"/>
+    </net>
+    <net code="110" name="unconnected-(IC1-TEST-Pad34)">
+      <node ref="IC1" pin="34" pinfunction="TEST" pintype="passive"/>
+    </net>
+    <net code="111" name="unconnected-(IC1-USB2_DM-Pad27)">
+      <node ref="IC1" pin="27" pinfunction="USB2_DM" pintype="passive"/>
+    </net>
+    <net code="112" name="unconnected-(IC1-USB2_DP-Pad26)">
+      <node ref="IC1" pin="26" pinfunction="USB2_DP" pintype="passive"/>
+    </net>
+    <net code="113" name="unconnected-(IC1-USB3_RXDM-Pad32)">
+      <node ref="IC1" pin="32" pinfunction="USB3_RXDM" pintype="passive"/>
+    </net>
+    <net code="114" name="unconnected-(IC1-USB3_RXDP-Pad31)">
+      <node ref="IC1" pin="31" pinfunction="USB3_RXDP" pintype="passive"/>
+    </net>
+    <net code="115" name="unconnected-(IC1-USB3_TXDM-Pad29)">
+      <node ref="IC1" pin="29" pinfunction="USB3_TXDM" pintype="passive"/>
+    </net>
+    <net code="116" name="unconnected-(IC1-USB3_TXDP-Pad28)">
+      <node ref="IC1" pin="28" pinfunction="USB3_TXDP" pintype="passive"/>
+    </net>
+    <net code="117" name="unconnected-(IC1-USBRBIAS-Pad37)">
+      <node ref="IC1" pin="37" pinfunction="USBRBIAS" pintype="passive"/>
+    </net>
+    <net code="118" name="unconnected-(IC1-VDD12A_1-Pad25)">
+      <node ref="IC1" pin="25" pinfunction="VDD12A_1" pintype="passive"/>
+    </net>
+    <net code="119" name="unconnected-(IC1-VDD12A_2-Pad30)">
+      <node ref="IC1" pin="30" pinfunction="VDD12A_2" pintype="passive"/>
+    </net>
+    <net code="120" name="unconnected-(IC1-VDD12A_3-Pad44)">
+      <node ref="IC1" pin="44" pinfunction="VDD12A_3" pintype="passive"/>
+    </net>
+    <net code="121" name="unconnected-(IC1-VDD12CORE_1-Pad21)">
+      <node ref="IC1" pin="21" pinfunction="VDD12CORE_1" pintype="passive"/>
+    </net>
+    <net code="122" name="unconnected-(IC1-VDD12CORE_2-Pad42)">
+      <node ref="IC1" pin="42" pinfunction="VDD12CORE_2" pintype="passive"/>
+    </net>
+    <net code="123" name="unconnected-(IC1-VDD12_SW_FB-Pad15)">
+      <node ref="IC1" pin="15" pinfunction="VDD12_SW_FB" pintype="passive"/>
+    </net>
+    <net code="124" name="unconnected-(IC1-VDD12_SW_OUT-Pad13)">
+      <node ref="IC1" pin="13" pinfunction="VDD12_SW_OUT" pintype="passive"/>
+    </net>
+    <net code="125" name="unconnected-(IC1-VDD25_REG_OUT-Pad45)">
+      <node ref="IC1" pin="45" pinfunction="VDD25_REG_OUT" pintype="passive"/>
+    </net>
+    <net code="126" name="unconnected-(IC1-VDD33A-Pad38)">
+      <node ref="IC1" pin="38" pinfunction="VDD33A" pintype="passive"/>
+    </net>
+    <net code="127" name="unconnected-(IC1-VDD33_REG_IN-Pad46)">
+      <node ref="IC1" pin="46" pinfunction="VDD33_REG_IN" pintype="passive"/>
+    </net>
+    <net code="128" name="unconnected-(IC1-VDDVARIO_1-Pad20)">
+      <node ref="IC1" pin="20" pinfunction="VDDVARIO_1" pintype="passive"/>
+    </net>
+    <net code="129" name="unconnected-(IC1-VDDVARIO_2-Pad36)">
+      <node ref="IC1" pin="36" pinfunction="VDDVARIO_2" pintype="passive"/>
+    </net>
+    <net code="130" name="unconnected-(IC1-VDDVARIO_3-Pad39)">
+      <node ref="IC1" pin="39" pinfunction="VDDVARIO_3" pintype="passive"/>
+    </net>
+    <net code="131" name="unconnected-(IC1-VDD_SW_IN-Pad14)">
+      <node ref="IC1" pin="14" pinfunction="VDD_SW_IN" pintype="passive"/>
+    </net>
+    <net code="132" name="unconnected-(IC1-XI-Pad40)">
+      <node ref="IC1" pin="40" pinfunction="XI" pintype="passive"/>
+    </net>
+    <net code="133" name="unconnected-(IC1-XO-Pad41)">
+      <node ref="IC1" pin="41" pinfunction="XO" pintype="passive"/>
+    </net>
+    <net code="134" name="unconnected-(J2-NC_1-PadA1)">
+      <node ref="J2" pin="A1" pinfunction="NC_1" pintype="passive+no_connect"/>
+    </net>
+    <net code="135" name="unconnected-(J2-NC_2-PadA10)">
+      <node ref="J2" pin="A10" pinfunction="NC_2" pintype="passive+no_connect"/>
+    </net>
+    <net code="136" name="unconnected-(J2-NC_3-PadB1)">
+      <node ref="J2" pin="B1" pinfunction="NC_3" pintype="passive+no_connect"/>
+    </net>
+    <net code="137" name="unconnected-(J2-NC_4-PadB10)">
+      <node ref="J2" pin="B10" pinfunction="NC_4" pintype="passive+no_connect"/>
+    </net>
+    <net code="138" name="unconnected-(Module1A-Ethernet_nLED1(3.3v)-Pad19)">
+      <node ref="Module1" pin="19" pinfunction="Ethernet_nLED1(3.3v)" pintype="output+no_connect"/>
+    </net>
+    <net code="139" name="unconnected-(Module1A-GPIO4-Pad54)">
+      <node ref="Module1" pin="54" pinfunction="GPIO4" pintype="passive+no_connect"/>
+    </net>
+    <net code="140" name="unconnected-(Module1A-GPIO5-Pad34)">
+      <node ref="Module1" pin="34" pinfunction="GPIO5" pintype="passive+no_connect"/>
+    </net>
+    <net code="141" name="unconnected-(Module1A-GPIO6-Pad30)">
+      <node ref="Module1" pin="30" pinfunction="GPIO6" pintype="passive+no_connect"/>
+    </net>
+    <net code="142" name="unconnected-(Module1A-GPIO7-Pad37)">
+      <node ref="Module1" pin="37" pinfunction="GPIO7" pintype="passive+no_connect"/>
+    </net>
+    <net code="143" name="unconnected-(Module1A-GPIO13-Pad28)">
+      <node ref="Module1" pin="28" pinfunction="GPIO13" pintype="passive+no_connect"/>
+    </net>
+    <net code="144" name="unconnected-(Module1A-GPIO16-Pad29)">
+      <node ref="Module1" pin="29" pinfunction="GPIO16" pintype="passive+no_connect"/>
+    </net>
+    <net code="145" name="unconnected-(Module1A-GPIO18-Pad49)">
+      <node ref="Module1" pin="49" pinfunction="GPIO18" pintype="passive+no_connect"/>
+    </net>
+    <net code="146" name="unconnected-(Module1A-GPIO19-Pad26)">
+      <node ref="Module1" pin="26" pinfunction="GPIO19" pintype="passive+no_connect"/>
+    </net>
+    <net code="147" name="unconnected-(Module1A-GPIO20-Pad27)">
+      <node ref="Module1" pin="27" pinfunction="GPIO20" pintype="passive+no_connect"/>
+    </net>
+    <net code="148" name="unconnected-(Module1A-GPIO21-Pad25)">
+      <node ref="Module1" pin="25" pinfunction="GPIO21" pintype="passive+no_connect"/>
+    </net>
+    <net code="149" name="unconnected-(Module1A-GPIO22-Pad46)">
+      <node ref="Module1" pin="46" pinfunction="GPIO22" pintype="passive+no_connect"/>
+    </net>
+    <net code="150" name="unconnected-(Module1A-GPIO23-Pad47)">
+      <node ref="Module1" pin="47" pinfunction="GPIO23" pintype="passive+no_connect"/>
+    </net>
+    <net code="151" name="unconnected-(Module1A-GPIO24-Pad45)">
+      <node ref="Module1" pin="45" pinfunction="GPIO24" pintype="passive+no_connect"/>
+    </net>
+    <net code="152" name="unconnected-(Module1A-GPIO25-Pad41)">
+      <node ref="Module1" pin="41" pinfunction="GPIO25" pintype="passive+no_connect"/>
+    </net>
+    <net code="153" name="unconnected-(Module1A-GPIO26-Pad24)">
+      <node ref="Module1" pin="24" pinfunction="GPIO26" pintype="passive+no_connect"/>
+    </net>
+    <net code="154" name="unconnected-(Module1A-GPIO27-Pad48)">
+      <node ref="Module1" pin="48" pinfunction="GPIO27" pintype="passive+no_connect"/>
+    </net>
+    <net code="155" name="unconnected-(Module1A-ID_SC-Pad35)">
+      <node ref="Module1" pin="35" pinfunction="ID_SC" pintype="passive+no_connect"/>
+    </net>
+    <net code="156" name="unconnected-(Module1A-ID_SD-Pad36)">
+      <node ref="Module1" pin="36" pinfunction="ID_SD" pintype="passive+no_connect"/>
+    </net>
+    <net code="157" name="unconnected-(Module1A-SD_DAT4-Pad68)">
+      <node ref="Module1" pin="68" pinfunction="SD_DAT4" pintype="passive+no_connect"/>
+    </net>
+    <net code="158" name="unconnected-(Module1A-SD_DAT5-Pad64)">
+      <node ref="Module1" pin="64" pinfunction="SD_DAT5" pintype="passive+no_connect"/>
+    </net>
+    <net code="159" name="unconnected-(Module1A-SD_DAT6-Pad72)">
+      <node ref="Module1" pin="72" pinfunction="SD_DAT6" pintype="passive+no_connect"/>
+    </net>
+    <net code="160" name="unconnected-(Module1A-SD_DAT7-Pad70)">
+      <node ref="Module1" pin="70" pinfunction="SD_DAT7" pintype="passive+no_connect"/>
+    </net>
+    <net code="161" name="unconnected-(Module1A-SD_VDD_Override-Pad73)">
+      <node ref="Module1" pin="73" pinfunction="SD_VDD_Override" pintype="input+no_connect"/>
+    </net>
+    <net code="162" name="unconnected-(Module1B-CAM0_C_N-Pad140)">
+      <node ref="Module1" pin="140" pinfunction="CAM0_C_N" pintype="input+no_connect"/>
+    </net>
+    <net code="163" name="unconnected-(Module1B-CAM0_C_P-Pad142)">
+      <node ref="Module1" pin="142" pinfunction="CAM0_C_P" pintype="input+no_connect"/>
+    </net>
+    <net code="164" name="unconnected-(Module1B-CAM0_D0_N-Pad128)">
+      <node ref="Module1" pin="128" pinfunction="CAM0_D0_N" pintype="input+no_connect"/>
+    </net>
+    <net code="165" name="unconnected-(Module1B-CAM0_D0_P-Pad130)">
+      <node ref="Module1" pin="130" pinfunction="CAM0_D0_P" pintype="input+no_connect"/>
+    </net>
+    <net code="166" name="unconnected-(Module1B-CAM0_D1_N-Pad134)">
+      <node ref="Module1" pin="134" pinfunction="CAM0_D1_N" pintype="input+no_connect"/>
+    </net>
+    <net code="167" name="unconnected-(Module1B-CAM0_D1_P-Pad136)">
+      <node ref="Module1" pin="136" pinfunction="CAM0_D1_P" pintype="input+no_connect"/>
+    </net>
+    <net code="168" name="unconnected-(Module1B-CAM1_C_N-Pad127)">
+      <node ref="Module1" pin="127" pinfunction="CAM1_C_N" pintype="input+no_connect"/>
+    </net>
+    <net code="169" name="unconnected-(Module1B-CAM1_C_P-Pad129)">
+      <node ref="Module1" pin="129" pinfunction="CAM1_C_P" pintype="input+no_connect"/>
+    </net>
+    <net code="170" name="unconnected-(Module1B-CAM1_D0_N-Pad115)">
+      <node ref="Module1" pin="115" pinfunction="CAM1_D0_N" pintype="input+no_connect"/>
+    </net>
+    <net code="171" name="unconnected-(Module1B-CAM1_D0_P-Pad117)">
+      <node ref="Module1" pin="117" pinfunction="CAM1_D0_P" pintype="input+no_connect"/>
+    </net>
+    <net code="172" name="unconnected-(Module1B-CAM1_D1_N-Pad121)">
+      <node ref="Module1" pin="121" pinfunction="CAM1_D1_N" pintype="input+no_connect"/>
+    </net>
+    <net code="173" name="unconnected-(Module1B-CAM1_D1_P-Pad123)">
+      <node ref="Module1" pin="123" pinfunction="CAM1_D1_P" pintype="input+no_connect"/>
+    </net>
+    <net code="174" name="unconnected-(Module1B-CAM1_D2_N-Pad133)">
+      <node ref="Module1" pin="133" pinfunction="CAM1_D2_N" pintype="input+no_connect"/>
+    </net>
+    <net code="175" name="unconnected-(Module1B-CAM1_D2_P-Pad135)">
+      <node ref="Module1" pin="135" pinfunction="CAM1_D2_P" pintype="input+no_connect"/>
+    </net>
+    <net code="176" name="unconnected-(Module1B-CAM1_D3_N-Pad139)">
+      <node ref="Module1" pin="139" pinfunction="CAM1_D3_N" pintype="input+no_connect"/>
+    </net>
+    <net code="177" name="unconnected-(Module1B-CAM1_D3_P-Pad141)">
+      <node ref="Module1" pin="141" pinfunction="CAM1_D3_P" pintype="input+no_connect"/>
+    </net>
+    <net code="178" name="unconnected-(Module1B-DSI0_C_N-Pad169)">
+      <node ref="Module1" pin="169" pinfunction="DSI0_C_N" pintype="output+no_connect"/>
+    </net>
+    <net code="179" name="unconnected-(Module1B-DSI0_C_P-Pad171)">
+      <node ref="Module1" pin="171" pinfunction="DSI0_C_P" pintype="output+no_connect"/>
+    </net>
+    <net code="180" name="unconnected-(Module1B-DSI0_D0_N-Pad157)">
+      <node ref="Module1" pin="157" pinfunction="DSI0_D0_N" pintype="output+no_connect"/>
+    </net>
+    <net code="181" name="unconnected-(Module1B-DSI0_D0_P-Pad159)">
+      <node ref="Module1" pin="159" pinfunction="DSI0_D0_P" pintype="output+no_connect"/>
+    </net>
+    <net code="182" name="unconnected-(Module1B-DSI0_D1_N-Pad163)">
+      <node ref="Module1" pin="163" pinfunction="DSI0_D1_N" pintype="output+no_connect"/>
+    </net>
+    <net code="183" name="unconnected-(Module1B-DSI0_D1_P-Pad165)">
+      <node ref="Module1" pin="165" pinfunction="DSI0_D1_P" pintype="output+no_connect"/>
+    </net>
+    <net code="184" name="unconnected-(Module1B-DSI1_C_N-Pad187)">
+      <node ref="Module1" pin="187" pinfunction="DSI1_C_N" pintype="output+no_connect"/>
+    </net>
+    <net code="185" name="unconnected-(Module1B-DSI1_C_P-Pad189)">
+      <node ref="Module1" pin="189" pinfunction="DSI1_C_P" pintype="output+no_connect"/>
+    </net>
+    <net code="186" name="unconnected-(Module1B-DSI1_D0_N-Pad175)">
+      <node ref="Module1" pin="175" pinfunction="DSI1_D0_N" pintype="output+no_connect"/>
+    </net>
+    <net code="187" name="unconnected-(Module1B-DSI1_D0_P-Pad177)">
+      <node ref="Module1" pin="177" pinfunction="DSI1_D0_P" pintype="output+no_connect"/>
+    </net>
+    <net code="188" name="unconnected-(Module1B-DSI1_D1_N-Pad181)">
+      <node ref="Module1" pin="181" pinfunction="DSI1_D1_N" pintype="output+no_connect"/>
+    </net>
+    <net code="189" name="unconnected-(Module1B-DSI1_D1_P-Pad183)">
+      <node ref="Module1" pin="183" pinfunction="DSI1_D1_P" pintype="output+no_connect"/>
+    </net>
+    <net code="190" name="unconnected-(Module1B-DSI1_D2_N-Pad193)">
+      <node ref="Module1" pin="193" pinfunction="DSI1_D2_N" pintype="output+no_connect"/>
+    </net>
+    <net code="191" name="unconnected-(Module1B-DSI1_D2_P-Pad195)">
+      <node ref="Module1" pin="195" pinfunction="DSI1_D2_P" pintype="output+no_connect"/>
+    </net>
+    <net code="192" name="unconnected-(Module1B-DSI1_D3_N-Pad194)">
+      <node ref="Module1" pin="194" pinfunction="DSI1_D3_N" pintype="output+no_connect"/>
+    </net>
+    <net code="193" name="unconnected-(Module1B-DSI1_D3_P-Pad196)">
+      <node ref="Module1" pin="196" pinfunction="DSI1_D3_P" pintype="output+no_connect"/>
+    </net>
+    <net code="194" name="unconnected-(Module1B-HDMI1_CEC-Pad149)">
+      <node ref="Module1" pin="149" pinfunction="HDMI1_CEC" pintype="open_collector+no_connect"/>
+    </net>
+    <net code="195" name="unconnected-(Module1B-HDMI1_CLK_N-Pad166)">
+      <node ref="Module1" pin="166" pinfunction="HDMI1_CLK_N" pintype="output+no_connect"/>
+    </net>
+    <net code="196" name="unconnected-(Module1B-HDMI1_CLK_P-Pad164)">
+      <node ref="Module1" pin="164" pinfunction="HDMI1_CLK_P" pintype="output+no_connect"/>
+    </net>
+    <net code="197" name="unconnected-(Module1B-HDMI1_HOTPLUG-Pad143)">
+      <node ref="Module1" pin="143" pinfunction="HDMI1_HOTPLUG" pintype="input+no_connect"/>
+    </net>
+    <net code="198" name="unconnected-(Module1B-HDMI1_SCL-Pad147)">
+      <node ref="Module1" pin="147" pinfunction="HDMI1_SCL" pintype="open_collector+no_connect"/>
+    </net>
+    <net code="199" name="unconnected-(Module1B-HDMI1_SDA-Pad145)">
+      <node ref="Module1" pin="145" pinfunction="HDMI1_SDA" pintype="bidirectional+no_connect"/>
+    </net>
+    <net code="200" name="unconnected-(Module1B-HDMI1_TX0_N-Pad160)">
+      <node ref="Module1" pin="160" pinfunction="HDMI1_TX0_N" pintype="output+no_connect"/>
+    </net>
+    <net code="201" name="unconnected-(Module1B-HDMI1_TX0_P-Pad158)">
+      <node ref="Module1" pin="158" pinfunction="HDMI1_TX0_P" pintype="output+no_connect"/>
+    </net>
+    <net code="202" name="unconnected-(Module1B-HDMI1_TX1_N-Pad154)">
+      <node ref="Module1" pin="154" pinfunction="HDMI1_TX1_N" pintype="output+no_connect"/>
+    </net>
+    <net code="203" name="unconnected-(Module1B-HDMI1_TX1_P-Pad152)">
+      <node ref="Module1" pin="152" pinfunction="HDMI1_TX1_P" pintype="output+no_connect"/>
+    </net>
+    <net code="204" name="unconnected-(Module1B-HDMI1_TX2_N-Pad148)">
+      <node ref="Module1" pin="148" pinfunction="HDMI1_TX2_N" pintype="output+no_connect"/>
+    </net>
+    <net code="205" name="unconnected-(Module1B-HDMI1_TX2_P-Pad146)">
+      <node ref="Module1" pin="146" pinfunction="HDMI1_TX2_P" pintype="output+no_connect"/>
+    </net>
+    <net code="206" name="unconnected-(Module1B-PCIe_CLK_N-Pad112)">
+      <node ref="Module1" pin="112" pinfunction="PCIe_CLK_N" pintype="output+no_connect"/>
+    </net>
+    <net code="207" name="unconnected-(Module1B-PCIe_CLK_P-Pad110)">
+      <node ref="Module1" pin="110" pinfunction="PCIe_CLK_P" pintype="output+no_connect"/>
+    </net>
+    <net code="208" name="unconnected-(Module1B-PCIe_CLK_nREQ-Pad102)">
+      <node ref="Module1" pin="102" pinfunction="PCIe_CLK_nREQ" pintype="input+no_connect"/>
+    </net>
+    <net code="209" name="unconnected-(Module1B-PCIe_RX_N-Pad118)">
+      <node ref="Module1" pin="118" pinfunction="PCIe_RX_N" pintype="input+no_connect"/>
+    </net>
+    <net code="210" name="unconnected-(Module1B-PCIe_RX_P-Pad116)">
+      <node ref="Module1" pin="116" pinfunction="PCIe_RX_P" pintype="input+no_connect"/>
+    </net>
+    <net code="211" name="unconnected-(Module1B-PCIe_TX_N-Pad124)">
+      <node ref="Module1" pin="124" pinfunction="PCIe_TX_N" pintype="output+no_connect"/>
+    </net>
+    <net code="212" name="unconnected-(Module1B-PCIe_TX_P-Pad122)">
+      <node ref="Module1" pin="122" pinfunction="PCIe_TX_P" pintype="output+no_connect"/>
+    </net>
+    <net code="213" name="unconnected-(Module1B-PCIe_nRST-Pad109)">
+      <node ref="Module1" pin="109" pinfunction="PCIe_nRST" pintype="bidirectional+no_connect"/>
+    </net>
+    <net code="214" name="unconnected-(Module1B-Reserved-Pad104)">
+      <node ref="Module1" pin="104" pinfunction="Reserved" pintype="passive+no_connect"/>
+    </net>
+    <net code="215" name="unconnected-(Module1B-Reserved-Pad106)">
+      <node ref="Module1" pin="106" pinfunction="Reserved" pintype="passive+no_connect"/>
+    </net>
+  </nets>
+</export>

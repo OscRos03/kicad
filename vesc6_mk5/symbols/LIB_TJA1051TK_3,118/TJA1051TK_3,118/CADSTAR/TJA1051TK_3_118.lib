@@ -1,0 +1,16 @@
+.TJA1051TK_3_118 :1 ;High-speed CAN transceiver
+SON65P300X300X100-9N-D
+*STM IC
+*NGS
+*PLB 1="TXD" 2="GND" 3="VCC" 4="RXD" 5="VIO" 6="CANL" 7="CANH" 8="S" 9="EP"
+*MXP 9
+*DFN TJA1051TK_3_118
+~!Mouser Part Number (771-TJA1051TK/3118)
+~!Link Mouser Price/Stock (https://www.mouser.co.uk/ProductDetail/NXP-Semiconductors/TJA1051TK-3118?qs=fhAOlxDPaYVrDQ2e4g%252BBJA%3D%3D)
+~!Manufacturer_Name (NXP)
+~!Manufacturer_Part_Number (TJA1051TK/3,118)
+~!Link Datasheet (http://www.nxp.com/docs/en/data-sheet/TJA1051.pdf)
+~!Height (1mm)
+~!3D_Model (TJA1051TK_3,118)
+TJA1051TK_3_118
+1.1!U 2.1!U 3.1!U 4.1!U 5.1!U 6.1!U 7.1!U 8.1!U 9.1!U 

@@ -1,0 +1,13 @@
+(unit MM)
+
+(package "TJA1051TK_3_118"
+    (type UNDEF)
+    (uver 2)
+    (cuser "SamacSys")
+    (uuser "SamacSys")
+    (utime 2022-12-27-12:55:45)
+    (mountForm default
+        (footprintRef "SON65P300X300X100-9N-D")
+        (spec "System")
+    )
+)
